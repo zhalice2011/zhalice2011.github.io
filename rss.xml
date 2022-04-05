@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Apr 2022 11:19:14 GMT</lastBuildDate><item><title><![CDATA[Configuring a custom domain for your GitHub Pages site (Part 2)]]></title><description><![CDATA[一.查看Github Page的地址  二.添加解析记录 购买域名
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Apr 2022 11:33:43 GMT</lastBuildDate><item><title><![CDATA[Configuring a custom domain for your GitHub Pages site (Part 2)]]></title><description><![CDATA[一.查看Github Page的地址  二.添加解析记录 购买域名
 (https://console.dnspod.cn/) 添加两条解析记录
   三.设置Github Pages自定义域名  等一会儿解析完, 就可以通过域名访问你的博客啦~  https://zhalice…]]></description><link>https://zhalice2011.github.io/2022/make-your-own blog-part2/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/make-your-own blog-part2/</guid><pubDate>Tue, 05 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -107,26 +107,26 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/15b57fd6bbfecab5f1c3ec87d851bf40/bb543/domain-config.png&quot;
+    href=&quot;/static/d5d3d9696629f920a80257871e832506/24def/domain-config-2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 21.51898734177215%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAj0lEQVQY02WPjQoDIQyD7/0f9jZ/qm2tZrQ3h7BAoKL5Gi+shZQScs6Yc8E1xoizjgFmjtlsxuw+paogIogIzAxXN0XrjDkn1tpAQ2tPsLPEvYtFkXJFKYRcKN555vQf0O2bRDQgohqgDSyVQK0HdAPn1wGsyhFy7Yb+PbfLm1Zqz9wZ953wemeojl/mbPgBzNo6dHeRsj8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 12.025316455696203%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAU0lEQVQI10VNCQ7AIAjb/1/rCeqqXWAhNmkoR8tzzqFisYnStAEAc2neiyiB7bqUxpyr173/WdA8qoNPBI61PCyWZjD0fgPtSUqVc97b4AtQZPADwPOdTWYiAqQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;domain-config&quot;
         title=&quot;domain-config&quot;
-        src=&quot;/static/15b57fd6bbfecab5f1c3ec87d851bf40/f058b/domain-config.png&quot;
-        srcset=&quot;/static/15b57fd6bbfecab5f1c3ec87d851bf40/c26ae/domain-config.png 158w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/6bdcf/domain-config.png 315w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/f058b/domain-config.png 630w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/40601/domain-config.png 945w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/78612/domain-config.png 1260w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/bb543/domain-config.png 1418w&quot;
+        src=&quot;/static/d5d3d9696629f920a80257871e832506/f058b/domain-config-2.png&quot;
+        srcset=&quot;/static/d5d3d9696629f920a80257871e832506/c26ae/domain-config-2.png 158w,
+/static/d5d3d9696629f920a80257871e832506/6bdcf/domain-config-2.png 315w,
+/static/d5d3d9696629f920a80257871e832506/f058b/domain-config-2.png 630w,
+/static/d5d3d9696629f920a80257871e832506/40601/domain-config-2.png 945w,
+/static/d5d3d9696629f920a80257871e832506/78612/domain-config-2.png 1260w,
+/static/d5d3d9696629f920a80257871e832506/24def/domain-config-2.png 1812w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
