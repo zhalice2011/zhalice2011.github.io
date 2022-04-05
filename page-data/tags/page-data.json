@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-index-js",
+    "path": "/tags/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"blog","lang":"en"}},"allMarkdownRemark":{"group":[{"fieldValue":"GitHub Pages","totalCount":1},{"fieldValue":"blog","totalCount":1},{"fieldValue":"gatsby","totalCount":1},{"fieldValue":"react","totalCount":1}]}},"pageContext":{"langKey":"en"}},
+    "staticQueryHashes": ["3257411868"]}
