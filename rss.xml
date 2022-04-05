@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Apr 2022 10:38:09 GMT</lastBuildDate><item><title><![CDATA[Configuring a custom domain for your GitHub Pages site (Part 2)]]></title><description><![CDATA[一.查看Github Page的地址  二.添加解析记录 购买域名
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Apr 2022 10:42:09 GMT</lastBuildDate><item><title><![CDATA[Configuring a custom domain for your GitHub Pages site (Part 2)]]></title><description><![CDATA[一.查看Github Page的地址  二.添加解析记录 购买域名
 (https://console.dnspod.cn/) 添加两条解析记录
   三.设置Github Pages自定义域名  等一会儿解析完, 就可以通过域名访问你的博客啦~  https://zhalice…]]></description><link>https://zhalice2011.github.io/2022/make-your-own blog-part2/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/make-your-own blog-part2/</guid><pubDate>Tue, 05 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -6,7 +6,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg&quot;
+    href=&quot;/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -19,13 +19,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;writing blog&quot;
         title=&quot;writing blog&quot;
-        src=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg&quot;
-        srcset=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/ff44c/banner.jpg 158w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/a6688/banner.jpg 315w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg 630w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/0ede0/banner.jpg 945w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/3ac88/banner.jpg 1260w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg 4608w&quot;
+        src=&quot;/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg&quot;
+        srcset=&quot;/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/ff44c/banner.jpg 158w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/a6688/banner.jpg 315w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg 630w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/0ede0/banner.jpg 945w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/3ac88/banner.jpg 1260w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg 4608w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -41,7 +41,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/23e6382a90bb2470049bace9dd1fa641/136a2/ping.png&quot;
+    href=&quot;/blog/static/23e6382a90bb2470049bace9dd1fa641/136a2/ping.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -54,11 +54,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ping&quot;
         title=&quot;ping&quot;
-        src=&quot;/static/23e6382a90bb2470049bace9dd1fa641/f058b/ping.png&quot;
-        srcset=&quot;/static/23e6382a90bb2470049bace9dd1fa641/c26ae/ping.png 158w,
-/static/23e6382a90bb2470049bace9dd1fa641/6bdcf/ping.png 315w,
-/static/23e6382a90bb2470049bace9dd1fa641/f058b/ping.png 630w,
-/static/23e6382a90bb2470049bace9dd1fa641/136a2/ping.png 884w&quot;
+        src=&quot;/blog/static/23e6382a90bb2470049bace9dd1fa641/f058b/ping.png&quot;
+        srcset=&quot;/blog/static/23e6382a90bb2470049bace9dd1fa641/c26ae/ping.png 158w,
+/blog/static/23e6382a90bb2470049bace9dd1fa641/6bdcf/ping.png 315w,
+/blog/static/23e6382a90bb2470049bace9dd1fa641/f058b/ping.png 630w,
+/blog/static/23e6382a90bb2470049bace9dd1fa641/136a2/ping.png 884w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -76,7 +76,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/62d4c0ca8b2a5699a95475a007d528d4/8b69f/domain.png&quot;
+    href=&quot;/blog/static/62d4c0ca8b2a5699a95475a007d528d4/8b69f/domain.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -89,11 +89,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;domain&quot;
         title=&quot;domain&quot;
-        src=&quot;/static/62d4c0ca8b2a5699a95475a007d528d4/f058b/domain.png&quot;
-        srcset=&quot;/static/62d4c0ca8b2a5699a95475a007d528d4/c26ae/domain.png 158w,
-/static/62d4c0ca8b2a5699a95475a007d528d4/6bdcf/domain.png 315w,
-/static/62d4c0ca8b2a5699a95475a007d528d4/f058b/domain.png 630w,
-/static/62d4c0ca8b2a5699a95475a007d528d4/8b69f/domain.png 912w&quot;
+        src=&quot;/blog/static/62d4c0ca8b2a5699a95475a007d528d4/f058b/domain.png&quot;
+        srcset=&quot;/blog/static/62d4c0ca8b2a5699a95475a007d528d4/c26ae/domain.png 158w,
+/blog/static/62d4c0ca8b2a5699a95475a007d528d4/6bdcf/domain.png 315w,
+/blog/static/62d4c0ca8b2a5699a95475a007d528d4/f058b/domain.png 630w,
+/blog/static/62d4c0ca8b2a5699a95475a007d528d4/8b69f/domain.png 912w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -107,7 +107,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/15b57fd6bbfecab5f1c3ec87d851bf40/bb543/domain-config.png&quot;
+    href=&quot;/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/bb543/domain-config.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -120,13 +120,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;domain-config&quot;
         title=&quot;domain-config&quot;
-        src=&quot;/static/15b57fd6bbfecab5f1c3ec87d851bf40/f058b/domain-config.png&quot;
-        srcset=&quot;/static/15b57fd6bbfecab5f1c3ec87d851bf40/c26ae/domain-config.png 158w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/6bdcf/domain-config.png 315w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/f058b/domain-config.png 630w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/40601/domain-config.png 945w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/78612/domain-config.png 1260w,
-/static/15b57fd6bbfecab5f1c3ec87d851bf40/bb543/domain-config.png 1418w&quot;
+        src=&quot;/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/f058b/domain-config.png&quot;
+        srcset=&quot;/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/c26ae/domain-config.png 158w,
+/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/6bdcf/domain-config.png 315w,
+/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/f058b/domain-config.png 630w,
+/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/40601/domain-config.png 945w,
+/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/78612/domain-config.png 1260w,
+/blog/static/15b57fd6bbfecab5f1c3ec87d851bf40/bb543/domain-config.png 1418w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -141,7 +141,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0aafd28bb967b18ace54ccb7f05c3de3/56dab/GnHub.png&quot;
+    href=&quot;/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/56dab/GnHub.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -154,13 +154,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;GnHub&quot;
         title=&quot;GnHub&quot;
-        src=&quot;/static/0aafd28bb967b18ace54ccb7f05c3de3/f058b/GnHub.png&quot;
-        srcset=&quot;/static/0aafd28bb967b18ace54ccb7f05c3de3/c26ae/GnHub.png 158w,
-/static/0aafd28bb967b18ace54ccb7f05c3de3/6bdcf/GnHub.png 315w,
-/static/0aafd28bb967b18ace54ccb7f05c3de3/f058b/GnHub.png 630w,
-/static/0aafd28bb967b18ace54ccb7f05c3de3/40601/GnHub.png 945w,
-/static/0aafd28bb967b18ace54ccb7f05c3de3/78612/GnHub.png 1260w,
-/static/0aafd28bb967b18ace54ccb7f05c3de3/56dab/GnHub.png 2296w&quot;
+        src=&quot;/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/f058b/GnHub.png&quot;
+        srcset=&quot;/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/c26ae/GnHub.png 158w,
+/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/6bdcf/GnHub.png 315w,
+/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/f058b/GnHub.png 630w,
+/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/40601/GnHub.png 945w,
+/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/78612/GnHub.png 1260w,
+/blog/static/0aafd28bb967b18ace54ccb7f05c3de3/56dab/GnHub.png 2296w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -174,7 +174,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg&quot;
+    href=&quot;/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -187,13 +187,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;writing blog&quot;
         title=&quot;writing blog&quot;
-        src=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg&quot;
-        srcset=&quot;/static/d5f2779e5a84bf92e5d939ed7cc9b20e/ff44c/banner.jpg 158w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/a6688/banner.jpg 315w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg 630w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/0ede0/banner.jpg 945w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/3ac88/banner.jpg 1260w,
-/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg 4608w&quot;
+        src=&quot;/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg&quot;
+        srcset=&quot;/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/ff44c/banner.jpg 158w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/a6688/banner.jpg 315w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/828fb/banner.jpg 630w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/0ede0/banner.jpg 945w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/3ac88/banner.jpg 1260w,
+/blog/static/d5f2779e5a84bf92e5d939ed7cc9b20e/c83bb/banner.jpg 4608w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -209,7 +209,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5e5f7a8fca24a0cae50af5303bee875c/c1b63/create-pro.png&quot;
+    href=&quot;/blog/static/5e5f7a8fca24a0cae50af5303bee875c/c1b63/create-pro.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -222,12 +222,12 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Create a new repository&quot;
         title=&quot;Create a new repository&quot;
-        src=&quot;/static/5e5f7a8fca24a0cae50af5303bee875c/f058b/create-pro.png&quot;
-        srcset=&quot;/static/5e5f7a8fca24a0cae50af5303bee875c/c26ae/create-pro.png 158w,
-/static/5e5f7a8fca24a0cae50af5303bee875c/6bdcf/create-pro.png 315w,
-/static/5e5f7a8fca24a0cae50af5303bee875c/f058b/create-pro.png 630w,
-/static/5e5f7a8fca24a0cae50af5303bee875c/40601/create-pro.png 945w,
-/static/5e5f7a8fca24a0cae50af5303bee875c/c1b63/create-pro.png 1200w&quot;
+        src=&quot;/blog/static/5e5f7a8fca24a0cae50af5303bee875c/f058b/create-pro.png&quot;
+        srcset=&quot;/blog/static/5e5f7a8fca24a0cae50af5303bee875c/c26ae/create-pro.png 158w,
+/blog/static/5e5f7a8fca24a0cae50af5303bee875c/6bdcf/create-pro.png 315w,
+/blog/static/5e5f7a8fca24a0cae50af5303bee875c/f058b/create-pro.png 630w,
+/blog/static/5e5f7a8fca24a0cae50af5303bee875c/40601/create-pro.png 945w,
+/blog/static/5e5f7a8fca24a0cae50af5303bee875c/c1b63/create-pro.png 1200w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -257,7 +257,7 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fc246abce9cebbf10e6c904578f1d7f8/95c1f/new-branch.png&quot;
+    href=&quot;/blog/static/fc246abce9cebbf10e6c904578f1d7f8/95c1f/new-branch.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -270,13 +270,13 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;new-branch&quot;
         title=&quot;new-branch&quot;
-        src=&quot;/static/fc246abce9cebbf10e6c904578f1d7f8/f058b/new-branch.png&quot;
-        srcset=&quot;/static/fc246abce9cebbf10e6c904578f1d7f8/c26ae/new-branch.png 158w,
-/static/fc246abce9cebbf10e6c904578f1d7f8/6bdcf/new-branch.png 315w,
-/static/fc246abce9cebbf10e6c904578f1d7f8/f058b/new-branch.png 630w,
-/static/fc246abce9cebbf10e6c904578f1d7f8/40601/new-branch.png 945w,
-/static/fc246abce9cebbf10e6c904578f1d7f8/78612/new-branch.png 1260w,
-/static/fc246abce9cebbf10e6c904578f1d7f8/95c1f/new-branch.png 2330w&quot;
+        src=&quot;/blog/static/fc246abce9cebbf10e6c904578f1d7f8/f058b/new-branch.png&quot;
+        srcset=&quot;/blog/static/fc246abce9cebbf10e6c904578f1d7f8/c26ae/new-branch.png 158w,
+/blog/static/fc246abce9cebbf10e6c904578f1d7f8/6bdcf/new-branch.png 315w,
+/blog/static/fc246abce9cebbf10e6c904578f1d7f8/f058b/new-branch.png 630w,
+/blog/static/fc246abce9cebbf10e6c904578f1d7f8/40601/new-branch.png 945w,
+/blog/static/fc246abce9cebbf10e6c904578f1d7f8/78612/new-branch.png 1260w,
+/blog/static/fc246abce9cebbf10e6c904578f1d7f8/95c1f/new-branch.png 2330w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -291,7 +291,7 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f30448b381eb07893e809d8dab8f44d1/8201f/set-branch.png&quot;
+    href=&quot;/blog/static/f30448b381eb07893e809d8dab8f44d1/8201f/set-branch.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -304,13 +304,13 @@ gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;set-branch&quot;
         title=&quot;set-branch&quot;
-        src=&quot;/static/f30448b381eb07893e809d8dab8f44d1/f058b/set-branch.png&quot;
-        srcset=&quot;/static/f30448b381eb07893e809d8dab8f44d1/c26ae/set-branch.png 158w,
-/static/f30448b381eb07893e809d8dab8f44d1/6bdcf/set-branch.png 315w,
-/static/f30448b381eb07893e809d8dab8f44d1/f058b/set-branch.png 630w,
-/static/f30448b381eb07893e809d8dab8f44d1/40601/set-branch.png 945w,
-/static/f30448b381eb07893e809d8dab8f44d1/78612/set-branch.png 1260w,
-/static/f30448b381eb07893e809d8dab8f44d1/8201f/set-branch.png 2554w&quot;
+        src=&quot;/blog/static/f30448b381eb07893e809d8dab8f44d1/f058b/set-branch.png&quot;
+        srcset=&quot;/blog/static/f30448b381eb07893e809d8dab8f44d1/c26ae/set-branch.png 158w,
+/blog/static/f30448b381eb07893e809d8dab8f44d1/6bdcf/set-branch.png 315w,
+/blog/static/f30448b381eb07893e809d8dab8f44d1/f058b/set-branch.png 630w,
+/blog/static/f30448b381eb07893e809d8dab8f44d1/40601/set-branch.png 945w,
+/blog/static/f30448b381eb07893e809d8dab8f44d1/78612/set-branch.png 1260w,
+/blog/static/f30448b381eb07893e809d8dab8f44d1/8201f/set-branch.png 2554w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
