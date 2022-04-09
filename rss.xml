@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Apr 2022 12:09:50 GMT</lastBuildDate><item><title><![CDATA[How to Get Duration of Video]]></title><description><![CDATA[一.下载FFmpeg 去FFmpeg官网 https://ffmpeg.org/download.html 下载   
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Apr 2022 12:19:34 GMT</lastBuildDate><item><title><![CDATA[How to Get Duration of Video]]></title><description><![CDATA[一.下载FFmpeg 去FFmpeg官网 https://ffmpeg.org/download.html 下载   
 
  二.添加到环境变量 将下载的和都复制到文件夹下 到这一步已经可以在任何路径下使用ffmpeg…]]></description><link>https://zhalice2011.github.io/2022/get-duration-of-video/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/get-duration-of-video/</guid><pubDate>Sat, 09 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;一下载ffmpeg&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%B8%80%E4%B8%8B%E8%BD%BDffmpeg&quot; aria-label=&quot;一下载ffmpeg permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;一.下载FFmpeg&lt;/h3&gt;
 &lt;p&gt;去FFmpeg官网 &lt;a href=&quot;https://zhalice2011.github.io/blog&quot;&gt;https://ffmpeg.org/download.html&lt;/a&gt; 下载&lt;/p&gt;
@@ -381,7 +381,76 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;等一会儿解析完, 就可以通过域名访问你的博客啦~  &lt;a href=&quot;https://zhalice.com&quot;&gt;https://zhalice.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Make Your Own Blog For Free in 2022 (Part 1)]]></title><description><![CDATA[一.新建Github Page 先新建一个, 命名为  (注意修改username为你自己的)  二.创建博客 安装脚手架 使用该模板建立你的博客 进入开发 打开  http://localhost:800…]]></description><link>https://zhalice2011.github.io/2022/make-your-own blog-part1/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/make-your-own blog-part1/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;等一会儿解析完, 就可以通过域名访问你的博客啦~  &lt;a href=&quot;https://zhalice.com&quot;&gt;https://zhalice.com&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;四添加cname文件&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%9B%9B%E6%B7%BB%E5%8A%A0cname%E6%96%87%E4%BB%B6&quot; aria-label=&quot;四添加cname文件 permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;四.添加CNAME文件&lt;/h3&gt;
+&lt;p&gt;其实可以从&lt;code class=&quot;language-text&quot;&gt;commit&lt;/code&gt;看到第三步就是在根目录下新建了一个&lt;code class=&quot;language-text&quot;&gt;CNAME&lt;/code&gt;文件, 但是我们每次发布其实会覆盖掉所有的文件, 要重复第三步才能使自定义域名生效&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5ef8df4a9972b6b10788be934d1d5117/cc7e7/0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.088607594936708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAfklEQVQI12XNyw6DMBBDUf7/R9uGEgKZPGZCuFW6QK1YHMmyF54ebublZkQyMSVKVWq1m9H/bikXJA2ZGAW/DYnJbxvOC8u64cNKypneT47eL/3r/GPWMDVUx4Gy70IIO9McjWcQlmSEeuBzuysNlwtOCu+ivKuyVLt4bVf+AGjU6J4J2c8zAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GnHub&quot;
+        title=&quot;GnHub&quot;
+        src=&quot;/static/5ef8df4a9972b6b10788be934d1d5117/f058b/0.png&quot;
+        srcset=&quot;/static/5ef8df4a9972b6b10788be934d1d5117/c26ae/0.png 158w,
+/static/5ef8df4a9972b6b10788be934d1d5117/6bdcf/0.png 315w,
+/static/5ef8df4a9972b6b10788be934d1d5117/f058b/0.png 630w,
+/static/5ef8df4a9972b6b10788be934d1d5117/40601/0.png 945w,
+/static/5ef8df4a9972b6b10788be934d1d5117/78612/0.png 1260w,
+/static/5ef8df4a9972b6b10788be934d1d5117/cc7e7/0.png 3386w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;所以我们将CNAME放在static文件夹下自动复制过去, 这样每次发布新文章就不用重新设置了.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5ef8df4a9972b6b10788be934d1d5117/cc7e7/0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.088607594936708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAfklEQVQI12XNyw6DMBBDUf7/R9uGEgKZPGZCuFW6QK1YHMmyF54ebublZkQyMSVKVWq1m9H/bikXJA2ZGAW/DYnJbxvOC8u64cNKypneT47eL/3r/GPWMDVUx4Gy70IIO9McjWcQlmSEeuBzuysNlwtOCu+ivKuyVLt4bVf+AGjU6J4J2c8zAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GnHub&quot;
+        title=&quot;GnHub&quot;
+        src=&quot;/static/5ef8df4a9972b6b10788be934d1d5117/f058b/0.png&quot;
+        srcset=&quot;/static/5ef8df4a9972b6b10788be934d1d5117/c26ae/0.png 158w,
+/static/5ef8df4a9972b6b10788be934d1d5117/6bdcf/0.png 315w,
+/static/5ef8df4a9972b6b10788be934d1d5117/f058b/0.png 630w,
+/static/5ef8df4a9972b6b10788be934d1d5117/40601/0.png 945w,
+/static/5ef8df4a9972b6b10788be934d1d5117/78612/0.png 1260w,
+/static/5ef8df4a9972b6b10788be934d1d5117/cc7e7/0.png 3386w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Make Your Own Blog For Free in 2022 (Part 1)]]></title><description><![CDATA[一.新建Github Page 先新建一个, 命名为  (注意修改username为你自己的)  二.创建博客 安装脚手架 使用该模板建立你的博客 进入开发 打开  http://localhost:800…]]></description><link>https://zhalice2011.github.io/2022/make-your-own blog-part1/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/make-your-own blog-part1/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
