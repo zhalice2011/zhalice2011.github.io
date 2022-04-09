@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-posts-js",
+    "path": "/tags/duration/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"blog"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/2022/get-duration-of-video/","langKey":"en","readingTime":{"minutes":1.03125}},"frontmatter":{"date":"April 09, 2022","title":"How to Get Duration of Video","description":"How to Get Duration of Video with FFmpeg"}}}]}},"pageContext":{"tag":"duration","langKey":"en"}},
+    "staticQueryHashes": ["2841359383","3257411868"]}

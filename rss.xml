@@ -1,4 +1,217 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Apr 2022 11:43:58 GMT</lastBuildDate><item><title><![CDATA[Configuring a custom domain for your GitHub Pages site (Part 2)]]></title><description><![CDATA[一.查看Github Page的地址  二.添加解析记录 购买域名
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[build a static blogging site]]></description><link>https://zhalice2011.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Apr 2022 12:00:21 GMT</lastBuildDate><item><title><![CDATA[How to Get Duration of Video]]></title><description><![CDATA[一.下载FFmpeg 去FFmpeg官网 https://ffmpeg.org/download.html 下载   
+
+ 二.添加到环境变量 将下载的和都复制到文件夹下 到这一步已经可以在任何路径下使用ffmpeg…]]></description><link>https://zhalice2011.github.io/2022/get-duration-of-video/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/get-duration-of-video/</guid><pubDate>Sat, 09 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;一下载ffmpeg&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%B8%80%E4%B8%8B%E8%BD%BDffmpeg&quot; aria-label=&quot;一下载ffmpeg permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;一.下载FFmpeg&lt;/h3&gt;
+&lt;p&gt;去FFmpeg官网 &lt;a href=&quot;https://zhalice2011.github.io/blog&quot;&gt;https://ffmpeg.org/download.html&lt;/a&gt; 下载&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/111d773f6ac51fda2bb21c11b49ab7aa/68638/1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.75949367088608%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAACiElEQVQoz4WSO2sUURiGB8TgD9BCBHVnz9zOXHbm7CY7EzMzu5v1kjUXtVBsRIiCaEAjVippROwtFRsLC8FCsBEDAS8QEhU1ELXw0lkpCiJo8+gMGKKFHnh4+a58B16t2+0yPj5Or9djbGyMiYkJRkdHS82yDKUU9Xp9Rf9F0aP5vk8QBHiet4LruhT5QqWUK/Hv2ure1TPFnnJhnucMJgntdptOp0Mrz0niuMxnec5wt0uaZaRphhCCSqWCrusrVAutVDBNE63Y3oxjQqWIGg2iep1aFBGGIf2NOioKaaioJApDlIoIarWyXlwURVGptTDEkRJNOg51z8UzDLzKVjwh8AyBJQS6aaObDpt0i426hW5JhGERWBbK81CuR933Ua6LkhLfttF2ujaP04CnacDj/T0W24rXeY3JwEYbP0/foStUT1zFO3WNtYevsa4zxZmp4zx/scSD+/eZm5tjfn6eRw8fkscx2h5f8mN7xPeRAb6dPsLXgyMwXOOMctEOXKZv+i53nrzj9uIbtJP30HozXJo5R/GWl5eZnZ3l85cvfPr4keE0Ret5Dq9Sn5etkNf7urwcGeRDu8axmoO29wJrJ6+Tztxk5OIt1hy9QV93mrPTJ3n7/j0LCwvllUtLSzx/9oxWMojmOQ6tMGBYRcSmoF/oNE2BI6pstn22OBHrqz4bhM8WGVExXZQrSQeaJXmSMDQwwFCjQeA4aL50ybOsNHHhOcuysC0b17KRhsA2BdIySuwyNjAM4w/b6NUqFV0vZ7XQtsnTmFZnG+3OEGO7drFn925Gd+wgbTZLS/1NHMckSfIHzWYTp7hQmiauMHANAykKiu+KUm3DwDDN0rD/o7ja/mWbn0BUrGL93wmGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;download&quot;
+        title=&quot;download&quot;
+        src=&quot;/static/111d773f6ac51fda2bb21c11b49ab7aa/f058b/1.png&quot;
+        srcset=&quot;/static/111d773f6ac51fda2bb21c11b49ab7aa/c26ae/1.png 158w,
+/static/111d773f6ac51fda2bb21c11b49ab7aa/6bdcf/1.png 315w,
+/static/111d773f6ac51fda2bb21c11b49ab7aa/f058b/1.png 630w,
+/static/111d773f6ac51fda2bb21c11b49ab7aa/40601/1.png 945w,
+/static/111d773f6ac51fda2bb21c11b49ab7aa/78612/1.png 1260w,
+/static/111d773f6ac51fda2bb21c11b49ab7aa/68638/1.png 1510w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/701298bbbe3ad7292431afb98f729d1f/9239a/2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 115.18987341772151%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEV0lEQVQ4y22V+2uTVxjH85/UTW1jkjfnvfbNtWvsJRedQ5BuzK4qzq32Ztems1jW1TlMccVW2sEQ2Uo7trKV4UB/EvxFEKFbtLramlZFxRteimIFUfiM90RjbRv45nnOOXk+7/eckzxxqarA8CjoxT70Eq+UUaJglPgKUZf522h6FJw6IVRUIVBVtSCX6VVY/1mUDT0JNnYl2PRNisS+Sqn4vgpSXdVs6IqT6oqzYV+cVE+c2NawhApNleB3gL61xXQca+PUwin2X9zPj3NDHJo5ROZyhh9mDtGebaPnv2/5fuoAndm9pKfb2dK3Gb3Yi9C1Aki8durS13mp6dxMx9/tbBuuZcdIHS1jjTT+Xk/6j1Y5t+2XWrYP11L381Z2/FbHxta4PBrhgPyiAHOiS/ULYrEQVckoGzdVkUjFqE6UEa8upypZRrTMwrL9BGwV2xaU2gLbEpiWjmZrUqq+yKGTCENFtTSEpUqppc6HNBm1gFOoY1gGVrgUM2Rh2halTh420QJLgM6bpmpSuubE/Dac2/MrfilVqCiKwqqiVby3Kq+ioiLWrF5T2LJQ89Hl9XppaGhgaGiI/oF+BgcHGRgYkDp8+DD9/f0cOXJExkwmQ29vr4x9fX2k0+kCrHDLbrebsbEx7t+/z7Vr13j16hVPnz6V49nZWR48eMCjR4+4evWqnF/8unTpUh4olgCHh4e5fv062WyW27dvc+vWLQmfnJyUoJs3b8piZ/7Zs2fMz8/z4sULzp49uzJwZHSEu3fvSkeOm8ePH3Pnzh1yuZx0eu/ePebm5mT+/Plznjx5Indy7ty5lYGjo6PS0YULF6QLB+gUOw4d2MOHD6VD5yEvX75kYWFBbnliYmI5cN06N0d/OsrszCzZiSy56Ry5mZwcT2YnuXL5Cjdu3GB6eloei/Mg51icbZ8+fXo5UPEobEp/SMufzewerWf36Jc0/drI7pF6mseaqO3fSjAcJBKOEA6HCQaDUqFQCNu2lwOFIojWREi0J4i3VBPfU02yNUlyT4LEVwliO8tR/Ao+n09+FxfL7/e/0xgKvxSf24fnfQ+e1cvlXestuFhJDnSxXHYgQCAcJBgNEYwEV1QgtETBALJuBbl0XUf3CtQSv5RW4kd3C7QSgfY6vll7I90j0HUNzaldonyD3RIg0VpOsilGvOkDKhrCVDeVUdkYkeNU83qSzTG5nmyNUflpCMun4F/hCFzK2mJaj7bw1/xxus93M5gbpOdiD71TvRycOkjHvx10nu+ke7Kb9D9p9k7t5ZNjNRheRfbDZZeiuT3UffcxmTMH2DW+na9PttF+ooW2Ey2kT+xh53gdn49vp+l4PbvGd9Bw8gtqMh9henz5/5SlDVYTgrKoTXllkGRqPRVVESoqI1RWRGUejpiYlh/rtZzcNgWmoaGaGpqpoWpLGqxsoGETPWyghwyZG5Ypc2fOabJ6aX5NC+popTpG0FnT0UM6qvEW+D/9c8XnUX3VLwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;download&quot;
+        title=&quot;download&quot;
+        src=&quot;/static/701298bbbe3ad7292431afb98f729d1f/f058b/2.png&quot;
+        srcset=&quot;/static/701298bbbe3ad7292431afb98f729d1f/c26ae/2.png 158w,
+/static/701298bbbe3ad7292431afb98f729d1f/6bdcf/2.png 315w,
+/static/701298bbbe3ad7292431afb98f729d1f/f058b/2.png 630w,
+/static/701298bbbe3ad7292431afb98f729d1f/40601/2.png 945w,
+/static/701298bbbe3ad7292431afb98f729d1f/9239a/2.png 1246w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4155d034edd4388380798f11bff293e3/1320e/3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.72151898734177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAs0lEQVQY032O7W6CQBBFef+H0ldA8GNTa3cFLSAp2wUBDSzHzP5uneQkkztzZ27UdR3zPLN4z7IsbxmGgWmaQt/3PeL13iPlnCOOY6IvrWnbNoiy6N8g9Xg+sdYyjiO/zlHXdfBLqO5+J1qvV2yShI/jkcv1SlmWFP9QVhXmfCbdbvk8ndjt96RpSpZl5Hke9CjZxByUQilFdbvRWMtP0/yJzOSo1prvosAYEx5IUvFqY3gBSP8uRNyIy+AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;download&quot;
+        title=&quot;download&quot;
+        src=&quot;/static/4155d034edd4388380798f11bff293e3/f058b/3.png&quot;
+        srcset=&quot;/static/4155d034edd4388380798f11bff293e3/c26ae/3.png 158w,
+/static/4155d034edd4388380798f11bff293e3/6bdcf/3.png 315w,
+/static/4155d034edd4388380798f11bff293e3/f058b/3.png 630w,
+/static/4155d034edd4388380798f11bff293e3/40601/3.png 945w,
+/static/4155d034edd4388380798f11bff293e3/78612/3.png 1260w,
+/static/4155d034edd4388380798f11bff293e3/1320e/3.png 1292w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 568px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/580383eade83b7f3c7662e3bc5f3067a/10e91/4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.62025316455696%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA8klEQVQY03WOy0rDUBRFz6A1wdZWiRQfsailSczjtsnNDa2KiEU/wYFUwUHngvj4B6kT/Q0HKg78uiXYSEcONps92Isla4/fbNy80Xn4xL37YPP2Hff+i8XRFVa0RzUpsNWQSlRQS/s0coWVpDipYlUrWlqx1OshvkaCDPEnL2yNn2hdTlkeP9O8mOJcv2IdnWPHIZU4x1b7VOOCeqZoGsVCklJL+r+wdZNQV/05sAjbHMZtXK+D7ATIro9se0hXIX6O+BnipWVrpKtnZ0/Pt/dnp5EDnXBmQkJjWBme4gxGNMwxzuCESmRmoECXyf5PafgDfDB5COH37PYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;download&quot;
+        title=&quot;download&quot;
+        src=&quot;/static/580383eade83b7f3c7662e3bc5f3067a/10e91/4.png&quot;
+        srcset=&quot;/static/580383eade83b7f3c7662e3bc5f3067a/c26ae/4.png 158w,
+/static/580383eade83b7f3c7662e3bc5f3067a/6bdcf/4.png 315w,
+/static/580383eade83b7f3c7662e3bc5f3067a/10e91/4.png 568w&quot;
+        sizes=&quot;(max-width: 568px) 100vw, 568px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 574px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4d79dbf7abc4618534725812ee6ee4b9/86389/5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.354430379746837%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA70lEQVQY032MsU7CUABFn6hFU7BSo2JsGjECbW3fa99rreigMXFwNCE6MTr5AwYJkfgR/g1hM37V0QADk8PJvbm5OcKb/NB8m3I4nHH8PsMbTvE/vtl/+aKaSLZVypa8oip7WIlmt0ioG4UtU46KhD0t53lgJJVQI6LBBK8/ov08wu2PsR/HOE+f2A+vbEQpVpKyGZdY8eVcWNMSWyvWQ01dKpxU0cgUNZkiugaRhT7n4Ql55OOctRGtANHqIE5D1oJ8cerqJQbRWbLaV7cLI4kzRaETmuYat3dPo7xjJ7/BLW+pRPlCFhhEoP/nT/gLYRt5vU4QUNcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;download&quot;
+        title=&quot;download&quot;
+        src=&quot;/static/4d79dbf7abc4618534725812ee6ee4b9/86389/5.png&quot;
+        srcset=&quot;/static/4d79dbf7abc4618534725812ee6ee4b9/c26ae/5.png 158w,
+/static/4d79dbf7abc4618534725812ee6ee4b9/6bdcf/5.png 315w,
+/static/4d79dbf7abc4618534725812ee6ee4b9/86389/5.png 574w&quot;
+        sizes=&quot;(max-width: 574px) 100vw, 574px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;二添加到环境变量&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%BA%8C%E6%B7%BB%E5%8A%A0%E5%88%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F&quot; aria-label=&quot;二添加到环境变量 permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;二.添加到环境变量&lt;/h3&gt;
+&lt;p&gt;将下载的&lt;code class=&quot;language-text&quot;&gt;ffmpeg&lt;/code&gt;和&lt;code class=&quot;language-text&quot;&gt;ffprobe&lt;/code&gt;都复制到&lt;code class=&quot;language-text&quot;&gt;/usr/local/bin&lt;/code&gt;文件夹下&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ~/Downloads/
+&lt;span class=&quot;token comment&quot;&gt;# 查看下载的文件&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -a &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ffmprob&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt; -a &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ffmpeg&quot;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 复制ffmpeg&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; ./ffmpeg /usr/local/bin
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; ugo+x /usr/local/bin/ffmpeg
+&lt;span class=&quot;token comment&quot;&gt;# 复制ffprobe&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; ./ffprobe /usr/local/bin
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; ugo+x /usr/local/bin/ffprobe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;到这一步已经可以在任何路径下使用ffmpeg命令了&lt;/p&gt;
+&lt;p&gt;如果没有可能是你没有将&lt;code class=&quot;language-text&quot;&gt;/usr/local/bin&lt;/code&gt;添加到 &lt;code class=&quot;language-text&quot;&gt;$PATH&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vi&lt;/span&gt; ~/.bash_profile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在文件末尾添加以下内容即刻:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/usr/local/bin:&lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;三查看视频时长&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E4%B8%89%E6%9F%A5%E7%9C%8B%E8%A7%86%E9%A2%91%E6%97%B6%E9%95%BF&quot; aria-label=&quot;三查看视频时长 permalink&quot; class=&quot;autolink-heading before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;三.查看视频时长&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 -i main-video.mp4&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f15d86df29381d51fe0d9620e2cba0f1/d5f92/7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 3.164556962025316%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQI12Pg8y/6z25o8Z9NR/8/u67lf059KzBm1TH/z6Zr/p9d1wKM2XQt/nPoWYIxSBxEg8RB6tih4iA+AH6THMcdm7HLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;download&quot;
+        title=&quot;download&quot;
+        src=&quot;/static/f15d86df29381d51fe0d9620e2cba0f1/f058b/7.png&quot;
+        srcset=&quot;/static/f15d86df29381d51fe0d9620e2cba0f1/c26ae/7.png 158w,
+/static/f15d86df29381d51fe0d9620e2cba0f1/6bdcf/7.png 315w,
+/static/f15d86df29381d51fe0d9620e2cba0f1/f058b/7.png 630w,
+/static/f15d86df29381d51fe0d9620e2cba0f1/40601/7.png 945w,
+/static/f15d86df29381d51fe0d9620e2cba0f1/78612/7.png 1260w,
+/static/f15d86df29381d51fe0d9620e2cba0f1/d5f92/7.png 2150w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Configuring a custom domain for your GitHub Pages site (Part 2)]]></title><description><![CDATA[一.查看Github Page的地址  二.添加解析记录 购买域名
 (https://console.dnspod.cn/) 添加两条解析记录
   三.设置Github Pages自定义域名  等一会儿解析完, 就可以通过域名访问你的博客啦~  https://zhalice…]]></description><link>https://zhalice2011.github.io/2022/make-your-own blog-part2/</link><guid isPermaLink="false">https://zhalice2011.github.io/2022/make-your-own blog-part2/</guid><pubDate>Tue, 05 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;

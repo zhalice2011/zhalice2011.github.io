@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tags-index-js",
     "path": "/tags/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"blog","lang":"en"}},"allMarkdownRemark":{"group":[{"fieldValue":"GitHub Pages","totalCount":2},{"fieldValue":"blog","totalCount":2},{"fieldValue":"gatsby","totalCount":2},{"fieldValue":"react","totalCount":2}]}},"pageContext":{"langKey":"en"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"blog","lang":"en"}},"allMarkdownRemark":{"group":[{"fieldValue":"FFmpeg","totalCount":1},{"fieldValue":"GitHub Pages","totalCount":2},{"fieldValue":"blog","totalCount":2},{"fieldValue":"duration","totalCount":1},{"fieldValue":"gatsby","totalCount":2},{"fieldValue":"react","totalCount":2},{"fieldValue":"video","totalCount":1}]}},"pageContext":{"langKey":"en"}},
     "staticQueryHashes": ["3257411868"]}
