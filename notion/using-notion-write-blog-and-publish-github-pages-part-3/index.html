@@ -1,0 +1,737 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.25662d62d5d1f00b6251.css" data-identity="gatsby-global-css">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden]{display:none}:root{--maxWidth-none:"none";--maxWidth-xs:20rem;--maxWidth-sm:24rem;--maxWidth-md:28rem;--maxWidth-lg:32rem;--maxWidth-xl:36rem;--maxWidth-2xl:42rem;--maxWidth-3xl:48rem;--maxWidth-4xl:56rem;--maxWidth-full:"100%";--maxWidth-wrapper:var(--maxWidth-4xl);--spacing-px:"1px";--spacing-0:0;--spacing-1:0.25rem;--spacing-2:0.5rem;--spacing-3:0.75rem;--spacing-4:1rem;--spacing-5:1.25rem;--spacing-6:1.5rem;--spacing-8:2rem;--spacing-10:2.5rem;--spacing-12:3rem;--spacing-16:4rem;--spacing-20:5rem;--spacing-24:6rem;--spacing-32:8rem;--fontFamily-sans:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--fontFamily-serif:"Georgia",Cambria,"Times New Roman",Times,serif;--font-body:var(--fontFamily-serif);--font-heading:var(--fontFamily-sans);--fontWeight-normal:400;--fontWeight-medium:500;--fontWeight-semibold:600;--fontWeight-bold:700;--fontWeight-extrabold:800;--fontWeight-black:900;--fontSize-root:16px;--lineHeight-none:1;--lineHeight-tight:1.1;--lineHeight-normal:1.5;--lineHeight-relaxed:1.625;--fontSize-0:0.833rem;--fontSize-1:1rem;--fontSize-2:1.2rem;--fontSize-3:1.44rem;--fontSize-4:1.728rem;--fontSize-5:2.074rem;--fontSize-6:2.488rem;--fontSize-7:2.986rem;--color-primary:#005b99;--color-text:#2e353f;--color-text-light:#8593a8;--color-heading:#1a202c;--color-heading-black:#000;--color-heading-white:hsla(0,0%,100%,0.88);--color-accent:#d23669;--color-secondary:#ffcd00;--background-light:#f5f5f5;--background-dark:#3a3a3a;--color-accent-50:#d45a53;--color-secondary-50:#d2bb0c}*,:after,:before{box-sizing:border-box}html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:var(--fontSize-root);line-height:var(--lineHeight-normal)}body{color:var(--textColor);font-family:var(--font-body);font-size:var(--fontSize-2)}body.light{--textColor:var(--color-text);--headingColor:var(--color-heading-black);--linkColor:var(--color-accent);--tocBackground:var(--background-light);--tagColor:var(--color-secondary-50);--hr:var(--color-accent);--blockquoteColor:var(--color-secondary-50);background:#fff}body.dark{--textColor:hsla(0,0%,100%,0.88);--headingColor:var(--color-heading-white);--linkColor:var(--color-secondary);--tocBackground:var(--background-dark);--tagColor:var(--color-accent-50);--hr:var(--color-secondary);--blockquoteColor:var(--color-accent-50);background:#282c35}footer{padding:var(--spacing-6) var(--spacing-0)}hr{background:var(--hr);border:0;height:1px}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);letter-spacing:-.025em;line-height:var(--lineHeight-normal);margin-bottom:var(--spacing-6);margin-top:var(--spacing-12)}h2,h3,h4,h5,h6{color:var(--headingColor);font-weight:var(--fontWeight-bold)}h1{font-size:var(--fontSize-6);font-weight:var(--fontWeight-black)}h2{font-size:var(--fontSize-5)}h3{font-size:var(--fontSize-4)}h4{font-size:var(--fontSize-3)}h5{font-size:var(--fontSize-2)}h6{font-size:var(--fontSize-1)}h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{color:inherit;text-decoration:none}p{--baseline-multiplier:0.179;--x-height-multiplier:0.35;line-height:var(--lineHeight-relaxed);margin:var(--spacing-0) var(--spacing-0) var(--spacing-6) var(--spacing-0)}ol,p,ul{padding:var(--spacing-0)}ol,ul{list-style-image:none;list-style-position:outside;margin-bottom:var(--spacing-8);margin-left:var(--spacing-5);margin-right:var(--spacing-0)}ol li,ul li{padding-left:var(--spacing-0)}li>p,ol li,ul li{margin-bottom:calc(var(--spacing-8)/2)}li :last-child{margin-bottom:var(--spacing-0)}li>ul{margin-left:var(--spacing-8);margin-top:calc(var(--spacing-8)/2)}blockquote{border-left:var(--spacing-1) solid var(--blockquoteColor);color:var(--textColor);font-size:var(--fontSize-2);font-style:italic;margin-bottom:var(--spacing-8);margin-left:calc(var(--spacing-6)*-1);margin-right:var(--spacing-8);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6)}blockquote>:last-child{margin-bottom:var(--spacing-0)}blockquote>ol,blockquote>ul{list-style-position:inside}table{border-collapse:collapse;border-spacing:.25rem;margin-bottom:var(--spacing-8);width:100%}table thead tr th{border-bottom:1px solid var(--color-accent)}a{word-wrap:break-word;color:var(--linkColor);overflow-wrap:break-word;-ms-word-break:break-all;word-break:break-all;word-break:break-word}a:focus,a:hover{text-decoration:none}.global-wrapper{margin:var(--spacing-0) auto;max-width:var(--maxWidth-wrapper);padding:var(--spacing-10) var(--spacing-5)}.global-wrapper[data-is-root-path=true] .bio{margin-bottom:var(--spacing-20)}.global-header{align-items:center;display:flex;justify-content:space-between;margin-bottom:var(--spacing-12)}.main-heading{display:inline-block;font-size:var(--fontSize-7);margin:0}.post-list-item{margin-bottom:var(--spacing-8);margin-top:var(--spacing-12)}.post-list-item p{margin-bottom:var(--spacing-0)}.post-list-item h2{font-size:var(--fontSize-4);margin-bottom:var(--spacing-2);margin-top:var(--spacing-0)}.post-list-item h2>a{color:var(--linkColor)}.post-list-item header{margin-bottom:var(--spacing-4)}.header-link-home{font-family:var(--font-heading);font-size:var(--fontSize-2);font-weight:var(--fontWeight-bold);text-decoration:none}.bio{display:flex;margin-bottom:var(--spacing-16)}.bio-avatar,.bio p{margin-bottom:var(--spacing-0)}.bio-avatar{border-radius:50%;margin-right:var(--spacing-4);min-width:80px}.bio-avatar img,.bio-avatar picture{border-radius:50%;-webkit-border-radius:50%}.blog-post header h1{margin:var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0)}.blog-post header p{font-family:var(--font-heading);font-size:var(--fontSize-1)}.blog-post-nav ul{margin:var(--spacing-0)}.blog-post-nav a{text-decoration:none}.gatsby-highlight{margin-bottom:var(--spacing-8)}@media (max-width:42rem){blockquote{margin-left:var(--spacing-0);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4)}ol,ul{list-style-position:inside}.post-list-item h2{font-size:var(--fontSize-3)}body{font-size:var(--fontSize-1)}}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#000;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;text-align:left;text-shadow:0 1px #fff;white-space:pre;word-break:normal;word-spacing:normal}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{background:#b3d4fc;text-shadow:none}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{background:hsla(0,0%,100%,.5);color:#9a6e3a}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}code[class*=language-],pre[class*=language-]{border-radius:var(--spacing-2);font-size:inherit}:not(pre)>code[class*=language-]{font-family:inherit;line-height:inherit;padding:.2em .3em}.autolink-heading svg{fill:var(--textColor)}.react-toggle{-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;background-color:transparent;border:0;cursor:pointer;display:inline-block;padding:0;position:relative;touch-action:pan-x;-webkit-user-select:none;-ms-user-select:none;user-select:none}.react-toggle-screenreader-only{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.react-toggle-track{background-color:#0f1114;border-radius:30px;height:24px;padding:0;transition:all .2s ease;width:50px}.react-toggle-track-check{bottom:0;height:17px;left:5px;line-height:0;margin-bottom:auto;margin-top:auto;opacity:0;position:absolute;top:0;transition:opacity .25s ease;width:17px}.react-toggle--checked .react-toggle-track-check,.react-toggle-track-x{opacity:1;transition:opacity .25s ease}.react-toggle-track-x{bottom:0;height:17px;line-height:0;margin-bottom:auto;margin-top:auto;position:absolute;right:5px;top:0;width:17px}.react-toggle--checked .react-toggle-track-x{opacity:0}.react-toggle-thumb{background-color:#fafafa;border-radius:50%;box-sizing:border-box;height:22px;left:1px;position:absolute;top:1px;-webkit-transform:translateX(0);transform:translateX(0);transition:all .5s cubic-bezier(.23,1,.32,1) 0ms;width:22px}.react-toggle--checked .react-toggle-thumb{-webkit-transform:translateX(26px);transform:translateX(26px)}.react-toggle--focus .react-toggle-thumb{box-shadow:0 0 2px 3px #da251d}.react-toggle:active .react-toggle-thumb{box-shadow:0 0 5px 5px #ffcd00}.pagination{align-items:center;display:flex;justify-content:center;margin:20px 0;width:100%}.pagination a{border-radius:8px;color:#000;margin:2px;padding:8px 16px;text-decoration:none;transition:background-color .3s}.pagination a:hover{background-color:#ddd;border-radius:8px}.pagination span{border-radius:8px;margin:2px;padding:8px 16px}.pagination span.disabled{color:#aaa}.pagination span.active{background-color:var(--pagination-bg);box-shadow:var(--pagination-shadow);color:#aaa}.tags{list-style:none}.tags,.tags a{color:var(--tagColor);padding:0}.tags a{display:inline-block}.tag{text-decoration:none}.translation-root{background:var(--inlineCode-bg);border:1px solid var(--hr);border-radius:.75em;font-size:.9em;padding:.75em;word-break:break-all}.translation-link{border-bottom:1px solid var(--linkBorder);cursor:pointer;font-weight:400;margin-right:10px}.toc{background:var(--tocBackground);font-size:var(--fontSize-1);max-height:70vh;max-width:300px;overflow-x:hidden;overflow-y:auto;padding:var(--spacing-2);position:fixed;right:2vw;top:10vh}.toc>h4{margin:var(--spacing-2)}.toc a{text-decoration:none}.toc nav>ul{list-style:none;margin-left:var(--spacing-2)}.toc li,.toc li>p{margin-bottom:var(--spacing-2)}.toc li>ul{list-style:square;margin-left:var(--spacing-8);margin-top:0}@media only screen and (max-width:1439px){.toc{display:none}}</style><meta name="generator" content="Gatsby 3.14.6"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><style type="text/css">
+    .autolink-heading.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .autolink-heading.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .autolink-heading svg,
+    h2 .autolink-heading svg,
+    h3 .autolink-heading svg,
+    h4 .autolink-heading svg,
+    h5 .autolink-heading svg,
+    h6 .autolink-heading svg {
+      visibility: hidden;
+    }
+    h1:hover .autolink-heading svg,
+    h2:hover .autolink-heading svg,
+    h3:hover .autolink-heading svg,
+    h4:hover .autolink-heading svg,
+    h5:hover .autolink-heading svg,
+    h6:hover .autolink-heading svg,
+    h1 .autolink-heading:focus svg,
+    h2 .autolink-heading:focus svg,
+    h3 .autolink-heading:focus svg,
+    h4 .autolink-heading:focus svg,
+    h5 .autolink-heading:focus svg,
+    h6 .autolink-heading:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=d74c0c372af25161d35d1b1f2a0d9fd2" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=d74c0c372af25161d35d1b1f2a0d9fd2"/><title data-react-helmet="true">Using Notion Write Blog and Publish Github Pages (part 3) | blog</title><meta data-react-helmet="true" name="description" content="Using Notion Write Blog and Publish Github Pages (part 3)"/><meta data-react-helmet="true" property="og:title" content="Using Notion Write Blog and Publish Github Pages (part 3)"/><meta data-react-helmet="true" property="og:description" content="Using Notion Write Blog and Publish Github Pages (part 3)"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="zhalice2011"/><meta data-react-helmet="true" name="twitter:title" content="Using Notion Write Blog and Publish Github Pages (part 3)"/><meta data-react-helmet="true" name="twitter:description" content="Using Notion Write Blog and Publish Github Pages (part 3)"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link as="script" rel="preload" href="/webpack-runtime-2be0b4101f7583bc7ca9.js"/><link as="script" rel="preload" href="/framework-8dcaa89ad56a07169b97.js"/><link as="script" rel="preload" href="/app-c159696323a324937367.js"/><link as="script" rel="preload" href="/commons-461cb500ad6e09c4dfc8.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-8398ee480f3fe40d78ca.js"/><link as="fetch" rel="preload" href="/page-data/notion/using-notion-write-blog-and-publish-github-pages-part-3/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3257411868.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class="light"><script>
+              (function themeOper(){const onThemeChangeFuncObj={};let preferredTheme;function setTheme(newTheme){window.__theme=newTheme;preferredTheme=newTheme;document.body.className=newTheme;Object.values(onThemeChangeFuncObj).forEach(func=>func(newTheme));}try{preferredTheme=localStorage.getItem('theme');}catch(err){}window.__setPreferredTheme=function(newTheme){setTheme(newTheme);try{localStorage.setItem('theme',newTheme);}catch(err){}};window.__subOnThemeChange=function(key,func){onThemeChangeFuncObj[key]=func;};window.__unsubOnThemeChange=function(key){Reflect.deleteProperty(onThemeChangeFuncObj,key);};const darkQuery=window.matchMedia('(prefers-color-scheme: dark)');darkQuery.addListener(function(e){window.__setPreferredTheme(e.matches?'dark':'light');});setTheme(preferredTheme||(darkQuery.matches?'dark':'light'));})();
+            </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="global-wrapper" data-is-root-path="false"><header class="global-header"><a class="header-link-home" href="/">blog</a><div style="height:24px"></div></header><main><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><h1 itemProp="headline">Using Notion Write Blog and Publish Github Pages (part 3)</h1><p><span class="published-date">April 10, 2022</span> • <span class="reading-time">7 min read</span> • </p></header><section itemProp="articleBody"><h2 id="一-notion配置" style="position:relative;"><a href="#%E4%B8%80-notion%E9%85%8D%E7%BD%AE" aria-label="一 notion配置 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>一. Notion配置</h2>
+<p><a href="https://www.notion.so/">https://www.notion.so</a>/</p>
+<h3 id="1-下载notion创建blog页面" style="position:relative;"><a href="#1-%E4%B8%8B%E8%BD%BDnotion%E5%88%9B%E5%BB%BAblog%E9%A1%B5%E9%9D%A2" aria-label="1 下载notion创建blog页面 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 下载Notion创建Blog页面</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c194b0135c2fbbb023984a31d17d6edb/69d6b/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 21.51898734177215%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAlklEQVQY04VO0QrCMBDr//+W+gVORGXqHK0bHRvt3K1d10Za2IMTNBBy3OVCmLgdUEuOXnWgQYOoxzzPsNYiBI8QwgcjFvXeJ5+1BtM0pT/2uOe4nI5o5BOGepjxhTWWgH+7CKZUi7riaGSFOJtxSAfnHLTWSZeAdcN1+0gmiytEfkYnSnS8hFZtMhMRdtsNsmz/FfgLb2bIN/hWm7KvAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png"
+        title="1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png"
+        src="/static/c194b0135c2fbbb023984a31d17d6edb/f058b/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png"
+        srcset="/static/c194b0135c2fbbb023984a31d17d6edb/c26ae/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png 158w,
+/static/c194b0135c2fbbb023984a31d17d6edb/6bdcf/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png 315w,
+/static/c194b0135c2fbbb023984a31d17d6edb/f058b/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png 630w,
+/static/c194b0135c2fbbb023984a31d17d6edb/40601/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png 945w,
+/static/c194b0135c2fbbb023984a31d17d6edb/78612/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png 1260w,
+/static/c194b0135c2fbbb023984a31d17d6edb/69d6b/1b9371eaae7abb4b5959aab00f50c87860ae7a9d.png 1912w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3 id="2-创建integration" style="position:relative;"><a href="#2-%E5%88%9B%E5%BB%BAintegration" aria-label="2 创建integration permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 创建Integration</h3>
+<p><a href="https://www.notion.so/my-integrations">https://www.notion.so/my-integrations</a></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6b3e01a2c5906dc345519e5520e9494f/81ebd/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAABWUlEQVQoz5WS207CQBCG98nlDm/kDbjwJYynGzmKYBWEaDUxFEQJgghtgbbb7m92oO22IVab/Ome5pvZf5YBAbI+EfBIEH5ivI0PonW2sk1cXpyj1+2gXq+i1bxBq9lApVyi8XBo7LBxEIGEj8D38D2fwTIXcDYrOsMcZ41y6Qqa1sKddouz0xOaN65rqFUr0PVHuM4atrWEz90YCkGg0dsA448RJpMxpWUyy9fsE9PpBLJaOeeeE0lmtqwlzOUiBQwoidF/xXDQJwYBqfyAEyg2zY9FHomtlCuHfwmVSSle+GCubeLpoQO910WvfQ/j5XmbQGnEPqlXTzRl9j5C7iCHwlEB+fwhjovFfwHTa0xwF/ZiTpD4xl7iWYSepZ+M2vFQTFZiWyY4d6kqtTLpi+zwZm1HPmUC5aLsJm3upAI9d0P7ErzXwzRQnezzJr3/pwqzzP61yyngDzyRoU8ttT6xAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="c7f2b6994c0d243593b1a8a36cc1955a1918958c.png"
+        title="c7f2b6994c0d243593b1a8a36cc1955a1918958c.png"
+        src="/static/6b3e01a2c5906dc345519e5520e9494f/f058b/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png"
+        srcset="/static/6b3e01a2c5906dc345519e5520e9494f/c26ae/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png 158w,
+/static/6b3e01a2c5906dc345519e5520e9494f/6bdcf/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png 315w,
+/static/6b3e01a2c5906dc345519e5520e9494f/f058b/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png 630w,
+/static/6b3e01a2c5906dc345519e5520e9494f/40601/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png 945w,
+/static/6b3e01a2c5906dc345519e5520e9494f/78612/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png 1260w,
+/static/6b3e01a2c5906dc345519e5520e9494f/81ebd/c7f2b6994c0d243593b1a8a36cc1955a1918958c.png 1868w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>创建成功后得到 NOTION_TOKEN 保存下来</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c05c3c2430ec468db7572f55004445c8/33d1d/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABP0lEQVQoz2WS60rEMBCF+/5vJMriH0EUxDdQd9um6b1pek2aT5LWZVXC6cd0wsmBmQhnsWbGbYbNrkH+n6+98HQ28JfswZ+ep7NEAO9vr5we7nh5fuLxdE/X1oC7mgaFwx9t/x6OvOtqFrRWzPPIOGqMXUPzKn9yiUtinEhBZvD1hRv0/sxxz5tG/qPzjEYkdCKlis+0IglUUsCocV7eKI4hvuzGnx/QVHtf97BMR8J1ZqpL2raiayvapgxUXR2kVUuvGvSg0GNPPyjGSTOtM+e6Q3kzs+C0OgztylTmaK9CBg5VQZ3Ge2op6AsZ0nZZGu6oPAu1bhqMVjD0uGk8DNlCikpmtN6okOQiQcRnsuSCTBOyJKarS9ZpwM5T4DJqsAs+kDPLzZSPFbHHyngaswTamzpMkg2wB7fr0G7X7BuEvmr0q21I5gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="c27cf29b96408d0b128fa87ff20559e7b3806bc8.png"
+        title="c27cf29b96408d0b128fa87ff20559e7b3806bc8.png"
+        src="/static/c05c3c2430ec468db7572f55004445c8/f058b/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png"
+        srcset="/static/c05c3c2430ec468db7572f55004445c8/c26ae/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png 158w,
+/static/c05c3c2430ec468db7572f55004445c8/6bdcf/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png 315w,
+/static/c05c3c2430ec468db7572f55004445c8/f058b/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png 630w,
+/static/c05c3c2430ec468db7572f55004445c8/40601/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png 945w,
+/static/c05c3c2430ec468db7572f55004445c8/33d1d/c27cf29b96408d0b128fa87ff20559e7b3806bc8.png 1150w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>回到我们在notion创建的Blog页面, 点击页面右上角的共享按钮</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/78d6ff1dad7f0f6269e867542ee98274/922e6/64417c5edf53afec563086584560d0e6a5cc1f07.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 23.417721518987342%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAaUlEQVQY062PywqAIBBF/f8fq74gl7VzkUrh6MLHDTV3YREdOAwzA5cZpqQCEYEM1fpCS7ZqCHJZsQkBrTWO/QDDz7CUErLee8QY0fqvlsAM5zOmcSgvZdr8lmvXDQwhwDlXrnwM7Lx8AjAwieC2q0VQAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="64417c5edf53afec563086584560d0e6a5cc1f07.png"
+        title="64417c5edf53afec563086584560d0e6a5cc1f07.png"
+        src="/static/78d6ff1dad7f0f6269e867542ee98274/f058b/64417c5edf53afec563086584560d0e6a5cc1f07.png"
+        srcset="/static/78d6ff1dad7f0f6269e867542ee98274/c26ae/64417c5edf53afec563086584560d0e6a5cc1f07.png 158w,
+/static/78d6ff1dad7f0f6269e867542ee98274/6bdcf/64417c5edf53afec563086584560d0e6a5cc1f07.png 315w,
+/static/78d6ff1dad7f0f6269e867542ee98274/f058b/64417c5edf53afec563086584560d0e6a5cc1f07.png 630w,
+/static/78d6ff1dad7f0f6269e867542ee98274/40601/64417c5edf53afec563086584560d0e6a5cc1f07.png 945w,
+/static/78d6ff1dad7f0f6269e867542ee98274/78612/64417c5edf53afec563086584560d0e6a5cc1f07.png 1260w,
+/static/78d6ff1dad7f0f6269e867542ee98274/922e6/64417c5edf53afec563086584560d0e6a5cc1f07.png 2140w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>点击选择一个 刚创建的 Integration 点击邀请</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f59982e0ab665fcbb2dd2de02b69f497/f4281/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 27.21518987341772%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAABHElEQVQY01XIy0rDUBSF4byyU6dOBAdix4IJWtBRtQXBNxCk9qZtEK1tU1Nbm+upOSenTX5JIoJr87HX3oZlmdijIb1epzQY9Oj3u+Ue9Ks+HD4xGj2Xil78Ot1H7OGAo7sH9hr37N+2OTyuYbRaTYrIVKJSid6mKK1ItSpvqRJ2+Y78d7Jsh1IJSfINmebiJeCg/cWJLaidnmE0Gw30RrDxPDa+T7RakYQhaF3ZbiFNyaSsaE1OlSwvWiEr7/rFOcZ1vY4MAsa2zcd4jPP2ijt5Z+nMWDoOi+mEtesiPA+xXiMWn8RCEMcxQgiiOCaMIlSaYpomxs3lFUjJajYlXCz+CVwXbz4nWi5RQYD0/YpSSCn/JElCnudYlsUP1mNtn5jM4KsAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png"
+        title="c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png"
+        src="/static/f59982e0ab665fcbb2dd2de02b69f497/f058b/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png"
+        srcset="/static/f59982e0ab665fcbb2dd2de02b69f497/c26ae/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png 158w,
+/static/f59982e0ab665fcbb2dd2de02b69f497/6bdcf/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png 315w,
+/static/f59982e0ab665fcbb2dd2de02b69f497/f058b/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png 630w,
+/static/f59982e0ab665fcbb2dd2de02b69f497/40601/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png 945w,
+/static/f59982e0ab665fcbb2dd2de02b69f497/f4281/c3cb85ef1d7035b073d9cee7de40c0d0adee62d1.png 1016w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h2 id="二-blog配置" style="position:relative;"><a href="#%E4%BA%8C-blog%E9%85%8D%E7%BD%AE" aria-label="二 blog配置 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>二. Blog配置</h2>
+<h3 id="1-安装notionhqclient-和-dotenv-库" style="position:relative;"><a href="#1-%E5%AE%89%E8%A3%85notionhqclient-%E5%92%8C-dotenv-%E5%BA%93" aria-label="1 安装notionhqclient 和 dotenv 库 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 安装@notionhq/client 和 dotenv 库</h3>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">npm</span> <span class="token function">install</span> dotenv-cli --save-dev
+<span class="token function">npm</span> <span class="token function">install</span> @notionhq/client --save-dev</code></pre></div>
+<h3 id="2-新建脚本文件-binget-blog-postsjs" style="position:relative;"><a href="#2-%E6%96%B0%E5%BB%BA%E8%84%9A%E6%9C%AC%E6%96%87%E4%BB%B6-binget-blog-postsjs" aria-label="2 新建脚本文件 binget blog postsjs permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 新建脚本文件 /bin/get-blog-posts.js</h3>
+<p>因为Notion的API也在更新, 下面的转换文件是有时效性的, github也有很多这样的专门转换的库, 下面这个文件是我站在@Arnaud Valensi 的肩膀上, 代码稍微改了一下基本文字和图片的转换能用, 可能视频也需要更新, 有更新我会在这个文件 <a href="https://github.com/zhalice2011/blog/blob/master/bin/get-blog-posts.js">https://github.com/zhalice2011/blog/blob/master/bin/get-blog-posts.js</a>  进行更新</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/898e64c664c1681964b849546aa08448/cc155/f0f9596850cce55a28a10f3494add8a4aa84f261.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 12.025316455696203%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAb0lEQVQI12Pgdsv5z+1X/p85rO2/ekLrfwG/0v+MLnn/WVzzEdgNhAtwYma3/P/cPqX/ZUJL/zOo6Bj/l9My+m9iZvbfxMnuv7K9/X8NN6f/ao72/9WcHMBYycjsv4KmwX8FLUOcWF7P+L+Jo+t/AIwuQmoBDWS3AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="f0f9596850cce55a28a10f3494add8a4aa84f261.png"
+        title="f0f9596850cce55a28a10f3494add8a4aa84f261.png"
+        src="/static/898e64c664c1681964b849546aa08448/f058b/f0f9596850cce55a28a10f3494add8a4aa84f261.png"
+        srcset="/static/898e64c664c1681964b849546aa08448/c26ae/f0f9596850cce55a28a10f3494add8a4aa84f261.png 158w,
+/static/898e64c664c1681964b849546aa08448/6bdcf/f0f9596850cce55a28a10f3494add8a4aa84f261.png 315w,
+/static/898e64c664c1681964b849546aa08448/f058b/f0f9596850cce55a28a10f3494add8a4aa84f261.png 630w,
+/static/898e64c664c1681964b849546aa08448/cc155/f0f9596850cce55a28a10f3494add8a4aa84f261.png 886w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token punctuation">{</span> Client <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"@notionhq/client"</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> slugify <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"slugify"</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"path"</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> rimraf <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"rimraf"</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"fs"</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> fetch <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"node-fetch"</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> crypto <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"crypto"</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token constant">NOTION_TOKEN</span> <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NOTION_TOKEN</span>
+<span class="token keyword">const</span> <span class="token constant">NOTION_ROOT_PAGE_ID</span> <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NOTION_ROOT_PAGE_ID</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>
+  <span class="token string">"NOTION_ROOT_PAGE_ID: "</span><span class="token punctuation">,</span>
+  <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span><span class="token constant">NOTION_ROOT_PAGE_ID</span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>
+  <span class="token string">"NOTION_TOKEN: "</span><span class="token punctuation">,</span>
+  <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span><span class="token constant">NOTION_TOKEN</span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> markdownPages <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token comment">// Initializing a client</span>
+<span class="token keyword">const</span> notion <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Client</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">auth</span><span class="token operator">:</span> <span class="token constant">NOTION_TOKEN</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> regexMeta <span class="token operator">=</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^== *(\w+) *:* (.+) *$</span><span class="token regex-delimiter">/</span></span>
+
+<span class="token keyword">const</span> destPath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">normalize</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">".."</span><span class="token punctuation">,</span> <span class="token string">"content"</span><span class="token punctuation">,</span> <span class="token string">"blog"</span><span class="token punctuation">,</span> <span class="token string">"notion"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">downloadFile</span><span class="token punctuation">(</span><span class="token parameter">url<span class="token punctuation">,</span> destinationFolder</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">-> Downloading </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> response <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">fetch</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span>
+  <span class="token keyword">const</span> contentType <span class="token operator">=</span> response<span class="token punctuation">.</span>headers<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"content-type"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">"/"</span><span class="token punctuation">)</span>
+  <span class="token keyword">const</span> ext <span class="token operator">=</span> contentType<span class="token punctuation">[</span>contentType<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span>
+  <span class="token keyword">const</span> buffer <span class="token operator">=</span> <span class="token keyword">await</span> response<span class="token punctuation">.</span><span class="token function">buffer</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token keyword">const</span> hash <span class="token operator">=</span> crypto<span class="token punctuation">.</span><span class="token function">createHash</span><span class="token punctuation">(</span><span class="token string">"sha1"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span>buffer<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">digest</span><span class="token punctuation">(</span><span class="token string">"hex"</span><span class="token punctuation">)</span>
+  <span class="token keyword">const</span> fileName <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>hash<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>ext<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span>
+  <span class="token keyword">const</span> filePath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>destinationFolder<span class="token punctuation">,</span> fileName<span class="token punctuation">)</span>
+  <span class="token keyword">await</span> fs<span class="token punctuation">.</span>promises<span class="token punctuation">.</span><span class="token function">writeFile</span><span class="token punctuation">(</span>filePath<span class="token punctuation">,</span> buffer<span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> fileName
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">toTextString</span><span class="token punctuation">(</span><span class="token parameter">text</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> text<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">result<span class="token punctuation">,</span> textItem</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>textItem<span class="token punctuation">.</span>type <span class="token operator">!==</span> <span class="token string">"text"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">=================> not a 'text' type: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textItem<span class="token punctuation">.</span>type<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+      process<span class="token punctuation">.</span><span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>textItem<span class="token punctuation">.</span>text<span class="token punctuation">.</span>link <span class="token operator">!==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>result<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">[</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textItem<span class="token punctuation">.</span>text<span class="token punctuation">.</span>content<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">](</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textItem<span class="token punctuation">.</span>text<span class="token punctuation">.</span>link<span class="token punctuation">.</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>textItem<span class="token punctuation">.</span>annotations<span class="token punctuation">.</span>code <span class="token operator">===</span> <span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>result<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textItem<span class="token punctuation">.</span>text<span class="token punctuation">.</span>content<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\`</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>result<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textItem<span class="token punctuation">.</span>text<span class="token punctuation">.</span>content<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">processBlocks</span><span class="token punctuation">(</span>pageContent<span class="token punctuation">,</span> textPrefix <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> text <span class="token operator">=</span> <span class="token string">""</span>
+  <span class="token keyword">const</span> metas <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token keyword">let</span> wasBulletedList <span class="token operator">=</span> <span class="token boolean">false</span>
+
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> block <span class="token keyword">of</span> pageContent<span class="token punctuation">.</span>results<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>wasBulletedList <span class="token operator">===</span> <span class="token boolean">true</span> <span class="token operator">&amp;&amp;</span> block<span class="token punctuation">.</span>type <span class="token operator">!==</span> <span class="token string">"bulleted_list_item"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      wasBulletedList <span class="token operator">=</span> <span class="token boolean">false</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>object <span class="token operator">!==</span> <span class="token string">"block"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"child_page"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> subpageSlug <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">toMarkdown</span><span class="token punctuation">(</span>block<span class="token punctuation">.</span>id<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span>
+      text <span class="token operator">=</span> text <span class="token operator">+</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">[</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>block<span class="token punctuation">.</span>child_page<span class="token punctuation">.</span>title<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">](/blog/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>subpageSlug<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"paragraph"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// Empty block.</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>paragraph<span class="token punctuation">.</span>rich_text<span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        text <span class="token operator">=</span> text <span class="token operator">+</span> <span class="token string">"\n\n"</span>
+        <span class="token keyword">continue</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token comment">// Meta.</span>
+      <span class="token keyword">const</span> match <span class="token operator">=</span> block<span class="token punctuation">.</span>paragraph<span class="token punctuation">.</span>rich_text<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>text<span class="token punctuation">.</span>content<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span>regexMeta<span class="token punctuation">)</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>match <span class="token operator">!==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        metas<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>match<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">: '</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>match<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">'</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+        <span class="token keyword">continue</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token comment">// Simple text.</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textPrefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token function">toTextString</span><span class="token punctuation">(</span>block<span class="token punctuation">.</span>paragraph<span class="token punctuation">.</span>rich_text<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"heading_2"</span> <span class="token operator">&amp;&amp;</span>
+      block<span class="token punctuation">.</span>heading_2<span class="token punctuation">.</span>rich_text<span class="token punctuation">.</span>length <span class="token operator">!==</span> <span class="token number">0</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textPrefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">## </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token function">toTextString</span><span class="token punctuation">(</span>block<span class="token punctuation">.</span>heading_2<span class="token punctuation">.</span>rich_text<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"heading_3"</span> <span class="token operator">&amp;&amp;</span>
+      block<span class="token punctuation">.</span>heading_3<span class="token punctuation">.</span>rich_text<span class="token punctuation">.</span>length <span class="token operator">!==</span> <span class="token number">0</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textPrefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">### </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token function">toTextString</span><span class="token punctuation">(</span>block<span class="token punctuation">.</span>heading_3<span class="token punctuation">.</span>rich_text<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"bulleted_list_item"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      wasBulletedList <span class="token operator">=</span> <span class="token boolean">true</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textPrefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">* </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token function">toTextString</span><span class="token punctuation">(</span>
+        block<span class="token punctuation">.</span>bulleted_list_item<span class="token punctuation">.</span>rich_text
+      <span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"code"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textPrefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\`\`\`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>block<span class="token punctuation">.</span>code<span class="token punctuation">.</span>language<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token function">toTextString</span><span class="token punctuation">(</span>
+        block<span class="token punctuation">.</span>code<span class="token punctuation">.</span>rich_text
+      <span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n\`\`\`\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"video"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\`video: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>block<span class="token punctuation">.</span>video<span class="token punctuation">.</span>external<span class="token punctuation">.</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\`\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"image"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      image_name <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">downloadFile</span><span class="token punctuation">(</span>block<span class="token punctuation">.</span>image<span class="token punctuation">.</span>file<span class="token punctuation">.</span>url<span class="token punctuation">,</span> destPath<span class="token punctuation">)</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>textPrefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">![</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>image_name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">](</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>image_name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)\n\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>block<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"divider"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      text <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>text<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">---\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"=====> Unhandled block: "</span><span class="token punctuation">,</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>block<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> <span class="token punctuation">[</span>text<span class="token punctuation">,</span> metas<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">toMarkdown</span><span class="token punctuation">(</span><span class="token parameter">pageId<span class="token punctuation">,</span> ignore</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> pageProps <span class="token operator">=</span> <span class="token keyword">await</span> notion<span class="token punctuation">.</span>pages<span class="token punctuation">.</span><span class="token function">retrieve</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">page_id</span><span class="token operator">:</span> pageId<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token keyword">const</span> pageContent <span class="token operator">=</span> <span class="token keyword">await</span> notion<span class="token punctuation">.</span>blocks<span class="token punctuation">.</span>children<span class="token punctuation">.</span><span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">block_id</span><span class="token operator">:</span> pageId<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> pageTitle <span class="token operator">=</span> pageProps<span class="token punctuation">.</span>properties<span class="token punctuation">.</span>title<span class="token punctuation">.</span>title<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">?.</span>plain_text
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>pageTitle<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// is untitled page </span>
+    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">const</span> slug <span class="token operator">=</span> <span class="token function">slugify</span><span class="token punctuation">(</span>pageTitle<span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">lower</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">remove</span><span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">[*+~.,()'"!:@]</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token keyword">let</span> text <span class="token operator">=</span> <span class="token string">""</span>
+  <span class="token keyword">const</span> metas <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+  <span class="token comment">// Handle Frontmatter.</span>
+  metas<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">title: '</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>pageTitle<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">'</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> date <span class="token operator">=</span> pageProps<span class="token punctuation">.</span>created_time<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span>
+  metas<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">date: '</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>date<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">'</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+  <span class="token keyword">const</span> description <span class="token operator">=</span> <span class="token string">''</span>
+  metas<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">description: '</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>pageTitle<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">'</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+  <span class="token comment">// Download the cover and add it to the frontmatter.</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>pageProps<span class="token punctuation">.</span>cover <span class="token operator">!==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> pageProps<span class="token punctuation">.</span>cover<span class="token punctuation">.</span>type <span class="token operator">===</span> <span class="token string">"external"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> pageCoverUrl <span class="token operator">=</span> pageProps<span class="token punctuation">.</span>cover<span class="token punctuation">.</span>external<span class="token punctuation">.</span>url
+    <span class="token keyword">const</span> coverImageName <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">downloadFile</span><span class="token punctuation">(</span>pageCoverUrl<span class="token punctuation">,</span> destPath<span class="token punctuation">)</span>
+    metas<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">featured: '</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>coverImageName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">'</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>contentText<span class="token punctuation">,</span> childMetas<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">processBlocks</span><span class="token punctuation">(</span>pageContent<span class="token punctuation">)</span>
+
+  metas<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token operator">...</span>childMetas<span class="token punctuation">)</span>
+  metaText <span class="token operator">=</span> <span class="token string">"---\n"</span> <span class="token operator">+</span> metas<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"\n---\n"</span>
+  text <span class="token operator">=</span> metaText <span class="token operator">+</span> contentText
+
+  <span class="token comment">// Save the page data if it is not the root page.</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>ignore<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    markdownPages<span class="token punctuation">[</span>slug<span class="token punctuation">]</span> <span class="token operator">=</span> text
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">=> Imported "</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>pageTitle<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">"</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> slug
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">;</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// console.log(`-> Cleaning the '${destPath}' folder`)</span>
+  <span class="token comment">// rimraf.sync(destPath)</span>
+  fs<span class="token punctuation">.</span><span class="token function">mkdirSync</span><span class="token punctuation">(</span>destPath<span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">recursive</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">await</span> <span class="token function">toMarkdown</span><span class="token punctuation">(</span><span class="token constant">NOTION_ROOT_PAGE_ID</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">await</span> Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span>
+    Object<span class="token punctuation">.</span><span class="token function">entries</span><span class="token punctuation">(</span>markdownPages<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">[</span>slug<span class="token punctuation">,</span> markdown<span class="token punctuation">]</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> filename <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>slug<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.md</span><span class="token template-punctuation string">`</span></span>
+      <span class="token keyword">const</span> filepath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>destPath<span class="token punctuation">,</span> filename<span class="token punctuation">)</span>
+      <span class="token keyword">await</span> fs<span class="token punctuation">.</span>promises<span class="token punctuation">.</span><span class="token function">writeFile</span><span class="token punctuation">(</span>filepath<span class="token punctuation">,</span> markdown<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span>
+
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Done: imported </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>Object<span class="token punctuation">.</span><span class="token function">entries</span><span class="token punctuation">(</span>markdownPages<span class="token punctuation">)</span><span class="token punctuation">.</span>length<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> pages.</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span>console<span class="token punctuation">.</span>error<span class="token punctuation">)</span></code></pre></div>
+<h3 id="2-新建环境配置文件-env" style="position:relative;"><a href="#2-%E6%96%B0%E5%BB%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-env" aria-label="2 新建环境配置文件 env permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 新建环境配置文件 /.env</h3>
+<p>获取NOTION_ROOT_PAGE_ID</p>
+<p>打开Blog页面, 后面那一串数组就是了</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/fd898c71a8dc332b7eedd93ae930cfb0/33d1d/6d96778ae1229cdfb2c7e098991982187be7beaa.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 12.658227848101264%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAlElEQVQI123MyQ6CQBREUf7/7xgDNDzoZlBj4sAkiU2uoaMujIuTStWiPJGKy/XOsjx+rMzzwm0YUWLIxSCmR3T3V1k1jte0DcMwsm0b1lrsO/f+tJZ1nGiUoJXQVYZW9NfeP/rj2fHa/kBt9veaTBVOmiuyvCAtSuooQfsBVRgjQUTph5R+4Og4cdspzRinmfs08QImpN1EyFep3gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="6d96778ae1229cdfb2c7e098991982187be7beaa.png"
+        title="6d96778ae1229cdfb2c7e098991982187be7beaa.png"
+        src="/static/fd898c71a8dc332b7eedd93ae930cfb0/f058b/6d96778ae1229cdfb2c7e098991982187be7beaa.png"
+        srcset="/static/fd898c71a8dc332b7eedd93ae930cfb0/c26ae/6d96778ae1229cdfb2c7e098991982187be7beaa.png 158w,
+/static/fd898c71a8dc332b7eedd93ae930cfb0/6bdcf/6d96778ae1229cdfb2c7e098991982187be7beaa.png 315w,
+/static/fd898c71a8dc332b7eedd93ae930cfb0/f058b/6d96778ae1229cdfb2c7e098991982187be7beaa.png 630w,
+/static/fd898c71a8dc332b7eedd93ae930cfb0/40601/6d96778ae1229cdfb2c7e098991982187be7beaa.png 945w,
+/static/fd898c71a8dc332b7eedd93ae930cfb0/33d1d/6d96778ae1229cdfb2c7e098991982187be7beaa.png 1150w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>获取NOTION_TOKEN, 就是刚才创建 Integration 保存的那个密钥</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token assign-left variable">NOTION_TOKEN</span><span class="token operator">=</span>secret_xxxxxxxxxxxxx
+<span class="token assign-left variable">NOTION_ROOT_PAGE_ID</span><span class="token operator">=</span>94d3002182824088xxxxxxxxxxxx</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5f31c0a78cf1519416366287379d07c1/c8ad9/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 19.62025316455696%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvUlEQVQY022Oy07DMBAA8x/xixKvg0CNGmjTcirYid3C///OoCSl4sBhNJ7dg7d6Ekvwjs2DRUTwjcd7wftfy72bZmXu2UEC7XPHS/dGt90ioaUKjUPEU9cKpTRKrdba3FpTK4XWGmPMnXn/t2esNVTGrJcdh57j8MrpxmG/4/20X2bDYUcbBGstzrl/sdbxuHFU889tGyh5opS8cCmZMUW+v66k+Mk4JnLOnM8fi1NKCzFGpmla3qUU+r7nB5DmeJ2sfgFPAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png"
+        title="4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png"
+        src="/static/5f31c0a78cf1519416366287379d07c1/f058b/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png"
+        srcset="/static/5f31c0a78cf1519416366287379d07c1/c26ae/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png 158w,
+/static/5f31c0a78cf1519416366287379d07c1/6bdcf/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png 315w,
+/static/5f31c0a78cf1519416366287379d07c1/f058b/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png 630w,
+/static/5f31c0a78cf1519416366287379d07c1/40601/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png 945w,
+/static/5f31c0a78cf1519416366287379d07c1/78612/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png 1260w,
+/static/5f31c0a78cf1519416366287379d07c1/c8ad9/4f375a0d2dc52ea74e8df323fbf19a387ddfe7f4.png 1564w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>创建好了两个文件</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5413ac18c18ef0f3d54db438647032f7/9cab2/ed5ef5f04681a863402fb2f6252e13fae708944f.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 74.68354430379746%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACH0lEQVQ4y5WS208TQRSH980nA0pUsJV259bLtt1bt7u9pC2FgvAgBFItQRIi4osaE2OwPhqN//ZnuilEELA+fJlJZubL78w5VkFrSn6C3XxOteVTNAqTy2Py9iUlIXCUwpHyVrTWVAMP697wPQ97p5R2TqiOPuGMvhAcfk1X/3CCOz4nu/OB+723LKydsdC/xtoZi71TlgbvWNn/jLWU7JHpH2O//EZn9w2d0UfCnRPczSO8rdcpqjtipbFLJt7j6Q1k410yjRfk1sdY5XwWkwx4fPyddlBh2I0IHI14lkXnVlG5VQp2jpLI34GNsXO4ZYNlpEAm6zx5dU7sZujGGRqBQKoCShuULswwd1BAa0Xgl7EKUqCnwsMJpaZHeZBQ6tSpbjRTin4VJRRam9tRGmUMtTCYCm3sZJPFo1/EUUi336ceRdhimlKlCdIHdwm1QUpFpVLF0lLjJXWaB9s0oph2q029HhEEIZ7nY0wBpfQsyd+ii7MrQjeJaI+2CYOQOE5S0RTX9a4K50l4UfKDo590Wy02hpu4no9tC4SQl7J/Sf8QzpoynhAGAY04TlNd//S03HS9gZnQuRDKeMDyeEInqFCcHs6aMDfKYLQm9D2sorSRrS0eHf/Abwc4zRCj9H8zHRs39LGUUrhundpwnzgq0ogcKlJTlWouKlJRS/cSN6hhCWUIZZ6uWabnrtIo5ikLnV6cl9p0UoTArTn8BlkjyYbXdpXlAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="ed5ef5f04681a863402fb2f6252e13fae708944f.png"
+        title="ed5ef5f04681a863402fb2f6252e13fae708944f.png"
+        src="/static/5413ac18c18ef0f3d54db438647032f7/f058b/ed5ef5f04681a863402fb2f6252e13fae708944f.png"
+        srcset="/static/5413ac18c18ef0f3d54db438647032f7/c26ae/ed5ef5f04681a863402fb2f6252e13fae708944f.png 158w,
+/static/5413ac18c18ef0f3d54db438647032f7/6bdcf/ed5ef5f04681a863402fb2f6252e13fae708944f.png 315w,
+/static/5413ac18c18ef0f3d54db438647032f7/f058b/ed5ef5f04681a863402fb2f6252e13fae708944f.png 630w,
+/static/5413ac18c18ef0f3d54db438647032f7/9cab2/ed5ef5f04681a863402fb2f6252e13fae708944f.png 864w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3 id="4-修改packagejson新增一个脚本命令执行上面的脚本" style="position:relative;"><a href="#4-%E4%BF%AE%E6%94%B9packagejson%E6%96%B0%E5%A2%9E%E4%B8%80%E4%B8%AA%E8%84%9A%E6%9C%AC%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E4%B8%8A%E9%9D%A2%E7%9A%84%E8%84%9A%E6%9C%AC" aria-label="4 修改packagejson新增一个脚本命令执行上面的脚本 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. 修改package.json新增一个脚本命令执行上面的脚本</h3>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token string">"import-notion-posts"</span><span class="token builtin class-name">:</span> <span class="token string">"dotenv -- node ./bin/get-blog-posts.js"</span>,</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/005090b50df7a633b7be0c6472f159c4/9685e/fc7271b6d6454ab498400477ab8f2e986fa08b03.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 17.72151898734177%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAy0lEQVQY012O22qEMBRF/YwZYjwx3hATY7xWpJeBQv//i1bRDqX0YbEOmw37JEOMzNOEd46qLBmGAe88IQRijIwxUliLZBkighH59d9bniQihi4Ems6hjcFaS5qmKKXQmUaLcFMpd6W4pym30+rH/zk7iRjN7EeOjy9eloO1n/Bdj+8Cbd3ijGFvKqLN6XPDVpcEm7PW5cVSFVc2lwVjYc8PNbHp2N8+WdaDZX9n8z2PaeS19zxcy9bUdCK0WcZgc5yRy8NzJBb28sk3Og1z3dpUrVMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="fc7271b6d6454ab498400477ab8f2e986fa08b03.png"
+        title="fc7271b6d6454ab498400477ab8f2e986fa08b03.png"
+        src="/static/005090b50df7a633b7be0c6472f159c4/f058b/fc7271b6d6454ab498400477ab8f2e986fa08b03.png"
+        srcset="/static/005090b50df7a633b7be0c6472f159c4/c26ae/fc7271b6d6454ab498400477ab8f2e986fa08b03.png 158w,
+/static/005090b50df7a633b7be0c6472f159c4/6bdcf/fc7271b6d6454ab498400477ab8f2e986fa08b03.png 315w,
+/static/005090b50df7a633b7be0c6472f159c4/f058b/fc7271b6d6454ab498400477ab8f2e986fa08b03.png 630w,
+/static/005090b50df7a633b7be0c6472f159c4/40601/fc7271b6d6454ab498400477ab8f2e986fa08b03.png 945w,
+/static/005090b50df7a633b7be0c6472f159c4/78612/fc7271b6d6454ab498400477ab8f2e986fa08b03.png 1260w,
+/static/005090b50df7a633b7be0c6472f159c4/9685e/fc7271b6d6454ab498400477ab8f2e986fa08b03.png 1336w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3 id="5-在blog下编写一篇文章" style="position:relative;"><a href="#5-%E5%9C%A8blog%E4%B8%8B%E7%BC%96%E5%86%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0" aria-label="5 在blog下编写一篇文章 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. 在Blog下编写一篇文章</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/36e63c6ef8e399e6a4bac9c2c662d70d/99072/254b336036e91c1f4beebd12fe440ffe412f572e.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 18.354430379746837%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAvUlEQVQY05WMf2uCUBhG/f6fapGl+Wuadpe6VbKKjGKUy4upnXGvxGD/7YUDz3MeeI26rlBI+Y2UKl95uv/QdS3qjOO2YLd+Z50KLqeSTt5o62rgVv3muuL+pw/uirx80d2b4eE+FWxETPbqkcympIHLmzdj6Ts6L1wb4dq656GvN4Vyal/FIefPguZYQv/AOKSCYjFnFQVE5ojEMjXx1CTzHWLV7Qnh+IXEmiAca3CWqXMeuJw2HzTlAfqeH39nJc0FqIXOAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="254b336036e91c1f4beebd12fe440ffe412f572e.png"
+        title="254b336036e91c1f4beebd12fe440ffe412f572e.png"
+        src="/static/36e63c6ef8e399e6a4bac9c2c662d70d/f058b/254b336036e91c1f4beebd12fe440ffe412f572e.png"
+        srcset="/static/36e63c6ef8e399e6a4bac9c2c662d70d/c26ae/254b336036e91c1f4beebd12fe440ffe412f572e.png 158w,
+/static/36e63c6ef8e399e6a4bac9c2c662d70d/6bdcf/254b336036e91c1f4beebd12fe440ffe412f572e.png 315w,
+/static/36e63c6ef8e399e6a4bac9c2c662d70d/f058b/254b336036e91c1f4beebd12fe440ffe412f572e.png 630w,
+/static/36e63c6ef8e399e6a4bac9c2c662d70d/99072/254b336036e91c1f4beebd12fe440ffe412f572e.png 842w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3 id="6-测试脚本运行-自动拉取notion的文章生成markdown到目标目录下" style="position:relative;"><a href="#6-%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E8%BF%90%E8%A1%8C-%E8%87%AA%E5%8A%A8%E6%8B%89%E5%8F%96notion%E7%9A%84%E6%96%87%E7%AB%A0%E7%94%9F%E6%88%90markdown%E5%88%B0%E7%9B%AE%E6%A0%87%E7%9B%AE%E5%BD%95%E4%B8%8B" aria-label="6 测试脚本运行 自动拉取notion的文章生成markdown到目标目录下 permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>6. 测试脚本运行, 自动拉取Notion的文章生成Markdown到目标目录下</h3>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">npm</span> run import-notion-posts</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/d6992cd2fddfe9985b6832c673d0171c/e5ca1/2f414057a8805e1bc59aff2e872c84e19abc083b.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 30.37974683544304%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA4ElEQVQY01VR2Y6CQBCcJ/GKBwjs/sD6pHghcxhcB/T//6hN10wTfahUOtXTVQVqXd9poz2wqu+0vv7T4tKCGZn2YNaz5kFp8wBjN77lOTcd5caTKmyHobA9BF4QMdNhLl2Pw2HXDwFY5zcwjiZKjhSmA0sCWUxjujTOy0s7pJofbzQDHE0PDjwc/HFPVEijk9STxxsjybtgVgej0vYI83t7oaX6rJDHlKV7ftTyWOZ6+AzRhA8tzi1NDxaYVJbGlQkJ5WcIszDaNTSpDI33AUlk1pK9pmSnSW1PpP6OX3gDYdy2Tp0bZBQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="2f414057a8805e1bc59aff2e872c84e19abc083b.png"
+        title="2f414057a8805e1bc59aff2e872c84e19abc083b.png"
+        src="/static/d6992cd2fddfe9985b6832c673d0171c/f058b/2f414057a8805e1bc59aff2e872c84e19abc083b.png"
+        srcset="/static/d6992cd2fddfe9985b6832c673d0171c/c26ae/2f414057a8805e1bc59aff2e872c84e19abc083b.png 158w,
+/static/d6992cd2fddfe9985b6832c673d0171c/6bdcf/2f414057a8805e1bc59aff2e872c84e19abc083b.png 315w,
+/static/d6992cd2fddfe9985b6832c673d0171c/f058b/2f414057a8805e1bc59aff2e872c84e19abc083b.png 630w,
+/static/d6992cd2fddfe9985b6832c673d0171c/40601/2f414057a8805e1bc59aff2e872c84e19abc083b.png 945w,
+/static/d6992cd2fddfe9985b6832c673d0171c/78612/2f414057a8805e1bc59aff2e872c84e19abc083b.png 1260w,
+/static/d6992cd2fddfe9985b6832c673d0171c/e5ca1/2f414057a8805e1bc59aff2e872c84e19abc083b.png 1332w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>执行成功可以在 /content/blog/notion 文件夹看到我们转化的MD和下载的文件</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/38e0cf880d116b999b74c08d5e2c2c21/5caea/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 79.74683544303798%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC0ElEQVQ4y32RWZPbVBBG/RgeUhWgKpmE8SJfLdZmSZZlSZa1eZnJsAUmw0yAMEWGB94o8jf404e6V5YJxfLQ1X37Sud+X/fAMk20Rcnc16mTIdlCo0zHhL5ACBPDMNH/J4RuYZmCeBGgTQUDWxuiFVeMXj0QZQZuaDK3J7gzDUMITL0LS0yx9H+GKabMrA441aYMntT3nH3xO0/e/kH05j3WN7/xOPuJj4t7Ptnc82nR1Y+qBz6q3h3j4ZQfle94fPiV86tfGAudwfPVl+irz3nx1XsWr34m/PoHJu01091rpofv0Hev0V7e8vTyjrPLW86u3vDsostnl3c8293wtLpGtN8yUZbFBEcbMqqvsfMF87VHWIWEdahysAkI6oiwXRDUIUEZdCHvm4h57mM7gjjymWoaA8OyMQ2TF/sfmTUlbrPC3Wa4bYbTpCrUWea263u7HLdO8fZr7CzGcByiJOlmaJoWpmFw3txg1wX+PsWtErw2xWtWp5A9f5/jbTP8faYeln1nvcB0bKJk2SmUQMvQ+UwqLAu8NsGtVni7DLde4ZZJB91m6hHZ67N8RAF9l2gZ/6VQAXffMyvXeGXcQaTCo0oFkcCT4vQEdbLoP4DbO6x1hr/tFDhFfLLu1slJUR8SLEcga8Oe/btCCfSaRNntlSl1vbJ+DH1/m+KWSww5w+USIcQHS2lvsYocr1qqH/1D3i3hCFd106nva5XbtLOcLNEm2t8Vqi1Ly/UKX4KOKhSoX8YHtuU3zjrGtGc4vsd4NOoV6jw/vGXWbPAvMrxDjtuucMolroS0R3ttZ1tZVyNIsYsYc+4iLIvhcMjAMC1cXUdvbvDSjPlqQbhJiZqcoEiIqpSwSgnKlHkaE5Zp12syojYnyhd4to1vWYx7YChneLhnvfE55OdsC419MaHJNVVflGN2xYQ2n/CyGqu7QynPGpGvk8cTQlMwHY74E6Is+9xgjLlDAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png"
+        title="2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png"
+        src="/static/38e0cf880d116b999b74c08d5e2c2c21/f058b/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png"
+        srcset="/static/38e0cf880d116b999b74c08d5e2c2c21/c26ae/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png 158w,
+/static/38e0cf880d116b999b74c08d5e2c2c21/6bdcf/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png 315w,
+/static/38e0cf880d116b999b74c08d5e2c2c21/f058b/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png 630w,
+/static/38e0cf880d116b999b74c08d5e2c2c21/40601/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png 945w,
+/static/38e0cf880d116b999b74c08d5e2c2c21/5caea/2c029555fcfe1e9b0eabdd958ee4fb544531cc52.png 996w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>执行 npm run develop 或者 gatsby develop在浏览器查看效果</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">npm</span> run develop</code></pre></div>
+<p>发布到Github Page <a href="http://zhalice.com">zhalice.com</a> 上, 可以看到效果基本是一致的.</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">npm</span> run deploy</code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a6129da142ca49924b30706765060abd/01744/205c4f6776f41f7e2a228ca35ee076e78e114f93.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.65822784810127%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/ElEQVQ4y4WTgW7iMAyG+/5vddJp0t1uAwYUyoBSylagQGmTlCZt+U4JYxpip7Nk1Y3t3/YfxxNSIpVCSom1VVnSns9YsV9r6UqjxB5tqoutFEpJpBQYY1zs+SPHm80X+KOAgT8mmEzxxxP6A9/pOHil9zLk959nTpXmf9K2Ld7jU4cfPx/4+fCLx6cu680WISTZMacoBHkh3JnWlUvodjv0X3p0O88MhwNnD/ovzGZTRiMf73Q6obXGzmYTvhPrt6NZ/3DQ53US0Ot1mUwCxiOfKFpgcWyMJ6RgOpvy3O2QF/ln65aTKy9lWV6Kfsj1/DvxTKFQuwyx3d84/gW4Xq9dV7td6vy2+NcGvH2aMptMieYhQRAQhiFN09x0cgE0cG7ZJDGbTcLbKibLsrvinjaGPM/Ypu8cDnvy/Hg3mhAFNq5tGuLljONxhzHVtxR47qBteI9DZGErnqmq6qaq3Ts7sv3frCL26xVNbVyHh8PhpkuvaVuM0Yhsz0kWNG1Dmm5vbvwrh7XW1OYCbqn5utgO8C1eMfZ9FuECWQho2rtRLOA1MVknJEniXtaV65tbroVCZwV1LqGsoLxfj1NZOtC6rlGyQElBqSRKCYw+YXT1qd41OU03xHFEFIVs1onjlfNFbWK8jFjFMeF8zmIREsdLZy+jyNl2ucNwzl9eLOb2cXGRVQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="205c4f6776f41f7e2a228ca35ee076e78e114f93.png"
+        title="205c4f6776f41f7e2a228ca35ee076e78e114f93.png"
+        src="/static/a6129da142ca49924b30706765060abd/f058b/205c4f6776f41f7e2a228ca35ee076e78e114f93.png"
+        srcset="/static/a6129da142ca49924b30706765060abd/c26ae/205c4f6776f41f7e2a228ca35ee076e78e114f93.png 158w,
+/static/a6129da142ca49924b30706765060abd/6bdcf/205c4f6776f41f7e2a228ca35ee076e78e114f93.png 315w,
+/static/a6129da142ca49924b30706765060abd/f058b/205c4f6776f41f7e2a228ca35ee076e78e114f93.png 630w,
+/static/a6129da142ca49924b30706765060abd/40601/205c4f6776f41f7e2a228ca35ee076e78e114f93.png 945w,
+/static/a6129da142ca49924b30706765060abd/78612/205c4f6776f41f7e2a228ca35ee076e78e114f93.png 1260w,
+/static/a6129da142ca49924b30706765060abd/01744/205c4f6776f41f7e2a228ca35ee076e78e114f93.png 2830w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h2 id="三-参考-reference" style="position:relative;"><a href="#%E4%B8%89-%E5%8F%82%E8%80%83-reference" aria-label="三 参考 reference permalink" class="autolink-heading before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>三. 参考 (Reference)</h2>
+<p><a href="https://medium.com/@tfaieta/how-i-use-notion-as-my-cms-for-my-gatsby-site-c449cc9a4687">https://medium.com/@tfaieta/how-i-use-notion-as-my-cms-for-my-gatsby-site-c449cc9a4687</a></p>
+<p><a href="https://arnaudvalensi.github.io/blog/making-a-blog-using-notion-gatsby-and-github-pages/">https://arnaudvalensi.github.io/blog/making-a-blog-using-notion-gatsby-and-github-pages/</a></p>
+<p><a href="https://www.redgregory.com/notion/2020/6/15/9zuzav95gwzwewdu1dspweqbv481s5">https://www.redgregory.com/notion/2020/6/15/9zuzav95gwzwewdu1dspweqbv481s5</a></p></section><hr/><footer><div class="bio"><div data-gatsby-image-wrapper="" style="width:80px;height:80px" class="gatsby-image-wrapper bio-avatar"><div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#181818;width:80px;height:80px;position:relative"></div><picture><source type="image/avif" data-srcset="/static/2d665f40de5b545ae1f91e1fdab7cd54/d9027/profile-pic.avif 80w,/static/2d665f40de5b545ae1f91e1fdab7cd54/8a7fe/profile-pic.avif 160w" sizes="80px"/><source type="image/webp" data-srcset="/static/2d665f40de5b545ae1f91e1fdab7cd54/a5f1e/profile-pic.webp 80w,/static/2d665f40de5b545ae1f91e1fdab7cd54/36fad/profile-pic.webp 160w" sizes="80px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="80px" decoding="async" loading="lazy" data-src="/static/2d665f40de5b545ae1f91e1fdab7cd54/edb2b/profile-pic.jpg" data-srcset="/static/2d665f40de5b545ae1f91e1fdab7cd54/edb2b/profile-pic.jpg 80w,/static/2d665f40de5b545ae1f91e1fdab7cd54/39164/profile-pic.jpg 160w" alt="Profile picture"/></picture><noscript><picture><source type="image/avif" srcSet="/static/2d665f40de5b545ae1f91e1fdab7cd54/d9027/profile-pic.avif 80w,/static/2d665f40de5b545ae1f91e1fdab7cd54/8a7fe/profile-pic.avif 160w" sizes="80px"/><source type="image/webp" srcSet="/static/2d665f40de5b545ae1f91e1fdab7cd54/a5f1e/profile-pic.webp 80w,/static/2d665f40de5b545ae1f91e1fdab7cd54/36fad/profile-pic.webp 160w" sizes="80px"/><img data-gatsby-image-ssr="" layout="fixed" data-main-image="" style="opacity:0" sizes="80px" decoding="async" loading="lazy" src="/static/2d665f40de5b545ae1f91e1fdab7cd54/edb2b/profile-pic.jpg" srcSet="/static/2d665f40de5b545ae1f91e1fdab7cd54/edb2b/profile-pic.jpg 80w,/static/2d665f40de5b545ae1f91e1fdab7cd54/39164/profile-pic.jpg 160w" alt="Profile picture"/></picture></noscript><script type="module">const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1)}}</script></div><p>Personal blog by  <!-- --> <a href="https://github.com/zhalice2011">zhalice2011</a><br/>#C++ #JavaScript</p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/2022/get-duration-of-video/">← <!-- -->How to Get Duration of Video</a></li><li></li></ul></nav></main><footer>© zhalice2011 - <!-- -->2022</footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/notion/using-notion-write-blog-and-publish-github-pages-part-3/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-0610cb4a9d0f9fd956d3.js"],"app":["/app-c159696323a324937367.js"],"component---src-pages-404-js":["/component---src-pages-404-js-bad210d00571112b2c78.js"],"component---src-templates-blog-index-js":["/component---src-templates-blog-index-js-6cf566e4b65be20fc2d8.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-8398ee480f3fe40d78ca.js"],"component---src-templates-tag-posts-js":["/component---src-templates-tag-posts-js-b669552bdc7a3f4de37a.js"],"component---src-templates-tags-index-js":["/component---src-templates-tags-index-js-140f39e5d03dc10e55a6.js"]};/*]]>*/</script><script src="/polyfill-0610cb4a9d0f9fd956d3.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-8398ee480f3fe40d78ca.js" async=""></script><script src="/commons-461cb500ad6e09c4dfc8.js" async=""></script><script src="/app-c159696323a324937367.js" async=""></script><script src="/framework-8dcaa89ad56a07169b97.js" async=""></script><script src="/webpack-runtime-2be0b4101f7583bc7ca9.js" async=""></script></body></html>
